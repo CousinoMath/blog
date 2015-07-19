@@ -2,10 +2,26 @@
 ' -> &?squo;
 " -> &?dquo;
 .   -> . 
--->
 
 changing \delta, actually changes the graph. this a family of graphs, and not one single graph.
 image of graph
+
+-->
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+   config: ["MMLorHTML.js"],
+   jax: ["input/TeX", "output/HTML-CSS", "output/NativeMML"],
+   extensions: ["tex2jax.js", "MathMenu.js", "MathZoom.js"],
+   TeX: {
+      extensions: ["AMSmath.js", "AMSsymbols.js"]
+   },
+   tex2jax: {
+      skipTags: ["base", "canvas", "colgroup", "embed", "head", "iframe", "img", "map", "meter", "object", "noscript", "progress", "script", "style", "textarea", "time"]
+   }
+});
+</script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default" async="async"></script>
 
 # [Advanced Slope Mockup][1] in [Geogebra][2] #
 
