@@ -1,0 +1,35 @@
+<script type="text/x-mathjax-config">
+   MathJax.Hub.Config({
+      config: ["MMLorHTML.js"],
+      jax: ["input/TeX", "input/MathML", "output/HTML-CSS", "output/NativeMML", "output/SVG"],
+      extension: ["tex2jax.js", "mml2jax.js", "MathMenu.js", "MathZoom.js"],
+      menuSettings: {
+         zoom: "Double-Click",
+         mpContext: true,
+         mpMouse: true,
+      },
+      errorSettings: { message: ["[Math Error]"] },
+      
+      TeX: {
+         extensions: ["autoload-all.js"]
+      },
+      tex2jax: {
+         skipTags: ["base", "canvas", "colgroup", "embed", "head",
+            "iframe", "img", "map", "meter", "object", "noscript",
+            "progress", "script", "style", "textarea", "time"],
+      },
+      "HTML-CSS": {
+	       preferredFont: "STIX",
+         availableFonts: ["STIX", "STIX-Web", "TeX", "Asana-Math",
+		        "Gyre-Pagella", "Gyre-Termes", "Latin-Modern",
+            "Neo-Euler"],
+		     webFont: "STIX-Web",
+         extensions: ["handle-floats.js"]
+	    },
+      SVG: {
+         "font": "STIX-Web"
+      }
+   });
+</script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"
+  async="async"></script>
