@@ -25,14 +25,14 @@ I am writing my notes in Microsoft OneNote 2013 on a Lenovo Yoga Pad
 (Intel Core i7 4500U, 8GB RAM) running Windows 10 Pro. This hardware is
 a 2-in-1 laptop and tablet, which means that the screen has capacitive
 touch input. The stylus that I&rsquo;m using is an
-[Adonit Jot Pro](http://www.adonit.net/jot/pro/). I
-took lecture notes for the first week for a college algebra class and a
-business calculus class.
+[Adonit Jot Pro](http://www.adonit.net/jot/pro/), which by the way is
+an excellent stylus I took lecture notes for the first week for a
+college algebra class and a business calculus class.
 
 ### Converting handwriting to text ###
 
 At first, I tried converting my handwriting, both text and math,
-into properly typeset text and formulas. There are two ways of doing
+into their proper typeseting. There are two ways of doing
 this conversion. First, within paid versions of OneNote, there are
 buttons under the &ldquo;Draw&rdquo; tab to convert
 &ldquo;Ink to Text&rdquo; and &ldquo;Ink to Math&rdquo;. The other
@@ -52,17 +52,19 @@ enough to use regularly. I say this because recognizing mathematical
 writing is much harder than regular writing.
 With subscripts, superscripts, funny Greek letters, large fractions,
 etc., Microsoft has done a great job with their math input panel.
-It&rsquo;s just not finished yet: (1) the math input
-thinks my &lsquo;0&rsquo;s are &lsquo;3&rsquo;s; (2) I cannot write my
-&lsquo;1&rsquo;s with the hat and stand serifs; (3) and multiline equations
-are out, and so get used to equations that ride off the right hand side
-rather than down the page.
+It&rsquo;s just not finished yet. Take for examles some common errors
+which I came across (1) the math input thinks my &lsquo;0&rsquo;s are
+&lsquo;3&rsquo;s; (2) I cannot write my &lsquo;1&rsquo;s with the hat
+and stand serifs; (3) and multiline equations are out, and so get used
+to equations that ride off the right hand side rather than down the
+page.
 
 ### Just handwriting ###
 
 The tedium of converting and correcting lead me to just leave my
 handwriting as is. As an aside, the troubles which I list in this
-section are troubles that plagued every method. The first and primary
+section are troubles that also plagued were present when trying to do
+conversions. The first and primary
 problem that I encountered was that of palm rejection on my setup.
 Because I&rsquo;m using a capacitive stylus, my laptop is unable to
 distinguish between my stylus and my palm. So when I&rsquo;m lucky, my
@@ -80,8 +82,8 @@ My only other complaint is minor. The only way that I could draw in a
 thick dot was to manually select a pen with a larger stroke size. Then
 I could dab a point onto OneNote. This is a small complaint until you
 realize that drawing points in math is rather common. Then this
-formatting change which takes a few seconds starts to become a real
-nuisance.
+required and manual formatting change, which takes a few seconds,
+starts to become a real nuisance.
 
 ## Results ##
 
