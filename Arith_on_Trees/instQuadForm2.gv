@@ -1,0 +1,17 @@
+strict digraph instQuadForm2 {
+pm [shape=record,label="<0>|&plusmn;|<1>"];
+sqrt [label="&radic;"];
+minus [shape=record,label="<0>|-|<1>"];
+twelve [label="12"];
+div [shape=record,label="<0>|&divide;|<1>"];
+two [label="2"];
+sixteen [label="16"];
+four [label="4"];
+div:0 -> pm;
+div:1 -> two;
+pm:0 -> four;
+pm:1 -> sqrt;
+sqrt -> minus;
+minus:0 -> sixteen;
+minus:1 -> twelve;
+}

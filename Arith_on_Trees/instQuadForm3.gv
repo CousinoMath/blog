@@ -1,0 +1,13 @@
+strict digraph instQuadForm2 {
+label="16 nodes";
+pm [shape=record,label="<0>|&plusmn;|<1>"];
+sqrt [label="&radic;"];
+div [shape=record,label="<0>|&divide;|<1>"];
+two [label="2"];
+four1,four2 [label="4"];
+div:0 -> pm;
+div:1 -> two;
+pm:0 -> four1;
+pm:1 -> sqrt;
+sqrt -> four2;
+}

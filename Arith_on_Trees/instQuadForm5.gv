@@ -1,0 +1,7 @@
+strict digraph instQuadForm2 {
+div [shape=record,label="<0>|&divide;|<1>"];
+two [label="2"];
+set [label="{6,2}"];
+div:0 -> set;
+div:1 -> two;
+}

@@ -1,3 +1,10 @@
+*.aux
+*.log
+*.lof
+*.lot
+*.out
+*.synctex.gz
+*.toc
 Functional_Roles_of_Math_Symbols/Symbol_Table.html
 *.html~
 Functional_Roles_of_Math_Symbols/Function_of_Math_Symbols_Errata.md

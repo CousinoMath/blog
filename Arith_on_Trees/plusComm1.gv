@@ -1,0 +1,7 @@
+strict digraph plusComm1 {
+plus [shape=record, label="<p0>|+|<p1>"];
+a [label="a"];
+b [label="b"];
+plus:p0 -> a;
+plus:p1 -> b;
+}

@@ -1,9 +1,13 @@
 strict digraph timePow {
-ax [shape=record, label="a | x"];
-ay [shape=record, label="a | y"];
+a1, a2 [label="a"];
+x [label="x"];
+y [label="y"];
 mult [label="&times;"];
-pow1, pow2 	[label="^"];
+pow1 [shape=record, label="<0>|^|<1>"];
+pow2 [shape=record, label="<0>|^|<1>"];
 mult -> {pow1, pow2};
-pow1 -> ax;
-pow2 -> ay;
+pow1:0 -> a1;
+pow1:1 -> x;
+pow2:0 -> a2;
+pow2:1 -> y
 }

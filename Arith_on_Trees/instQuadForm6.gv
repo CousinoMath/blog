@@ -1,0 +1,3 @@
+strict digraph instQuadForm2 {
+set [label="{3,1}"];
+}

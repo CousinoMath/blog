@@ -1,0 +1,8 @@
+strict digraph timesAssoc1 {
+times1, times2 [label="&times;"];
+a [label="a"];
+b [label="b"];
+c [label="c"];
+times1 -> {a, times2};
+times2 -> {b, c};
+}
