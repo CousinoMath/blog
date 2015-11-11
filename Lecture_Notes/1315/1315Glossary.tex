@@ -1,0 +1,44 @@
+\usepackage[xindy]{imakeidx}
+\usepackage[toc,xindy,symbols]{glossaries}
+\makeglossaries
+\makeindex
+
+\newglossaryentry{set}{
+    name=set,
+    description={A collection of items, which we call elements}
+}
+\newglossaryentry{element}{
+    name=element,
+    description={A member, or item within, a set},
+    see={set}
+}
+\newglossaryentry{emptySet}{
+    name={empty set},
+    description={The set that contains no elements},
+    symbol={\ensuremath{\emptyset}},
+    see={set,element}
+}
+\newglossaryentry{rosterMethod}{
+    name={roster method},
+    description={This method of defining a set amounts to simply
+        listing out all the elements of the set withing curly braces,
+        \ensuremath{\left\{\right\}}},
+    see={set,element}
+}
+\newglossaryentry{builderMethod}{
+    name={builder method},
+    description={This method of defining a set describes a membership
+        requirement. Every element of the set satisfies the membership
+        requirement by making it true, and everything that satisfies
+        the requirement is a member. All other items aren't members of
+        the set and fail the membership requirement. For example,
+        \ensuremath{\left\{ x\mid x\textnormal{ is a prime number}
+            \right\}} consists of elements 2, 3, 5, 7, 11, etc},
+    see={set,element}
+}
+\newglossaryentry{realNumbers}{
+    symbol={\ensuremath{\mathbf{R}}},
+    name={real numbers},
+    description={The set of all integers, fractions, and irrational
+        numbers like \ensuremath{\sqrt{5}} and \ensuremath{\pi}}
+}

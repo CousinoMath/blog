@@ -1,0 +1,162 @@
+% !TeX spellcheck = en_US
+% !TeX root = 1315LectureNotes.tex
+% !TeX encoding = UTF-8
+\RequirePackage[l2tabu,orthodox]{nag}
+\documentclass[oneside]{scrbook}
+\usepackage{microtype}
+\usepackage{fullpage}
+\usepackage{mathtools}
+\usepackage[bookmarks=true,breaklinks=true,linktoc=all,unicode=true,%
+ hidelinks]{hyperref}
+\usepackage{cleveref}
+\usepackage{amssymb}
+\usepackage{gensymb}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage[svgnames,table,hyperref]{xcolor}
+\usepackage[framemethod=TikZ]{mdframed}
+\usepackage{array}
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+
+\setcounter{secnumdepth}{0}
+\setcounter{tocdepth}{3}
+
+\providecommand{\reals}{\mathbb{R}}
+\providecommand{\lt}{<}
+\providecommand{\gt}{>}
+\providecommand{\defeq}{\vcentcolon=}
+\providecommand{\abs}[1]{\left| #1\right|}
+\providecommand{\parens}[1]{\left( #1\right)}
+\providecommand{\set}[1]{\left\{ #1\right\}}
+\providecommand{\intervaloo}[2]{\left( #1, #2\right)}
+\providecommand{\intervalco}[2]{\left[ #1, #2\right)}
+\providecommand{\intervaloc}[2]{\left( #1, #2\right]}
+\providecommand{\intervalcc}[2]{\left[ #1, #2\right]}
+\providecommand{\fahrenheit}{\textdegree F}
+
+% Color names come from Wikipedia article on "Web Colors", X11 section
+% https://en.wikipedia.org/wiki/Web_colors#X11_color_names
+
+% Environment colors are "White" colors
+\colorlet{genericFrameColor}{Wheat} % brown/wheat
+\colorlet{genericFrameBgColor}{Cornsilk} % brown/cornsilk
+\colorlet{exampleColor}{PaleGreen} % green/pale green
+\colorlet{procedureColor}{PaleTurquoise} % blue/pale turquoise
+\colorlet{definitionColor}{MistyRose} % white/misty rose
+\colorlet{theoremColor}{LavenderBlush} % white/lavender blush
+
+% Text/Variable colors span the colors for colorblindness reasons
+\colorlet{varColor}{CornflowerBlue}
+\providecommand{\constcolor}[1]{\textcolor{varColor}{#1}}
+\colorlet{varColor1}{Crimson} % red/crimson 
+\colorlet{varColor2}{SpringGreen} % green/spring green
+\colorlet{varColor3}{Yellow} % yellow/yellow
+
+\mdfdefinestyle{basicFrameStyle}{
+    outerlinewidth=2pt,
+    innertopmargin=\baselineskip,
+    frametitlefont=\sffamily\bfseries
+}
+\mdfdefinestyle{genericFrameStyle}{style=basicFrameStyle}
+\mdfapptodefinestyle{genericFrameStyle}{
+    linecolor=genericFrameColor,
+    frametitlebackgroundcolor=genericFrameColor,
+    backgroundcolor=genericFrameBgColor
+}
+\newmdenv[style=genericFrameStyle]{genericFrame}
+
+\newcounter{example}[section]
+\renewcommand{\theexample}{\arabic{chapter}-\arabic{example}}
+\mdfdefinestyle{exampleStyle}{style=basicFrameStyle}
+\mdfapptodefinestyle{exampleStyle}{
+    linecolor=exampleColor,
+    settings={\stepcounter{example}},
+    frametitle={~Example~\theexample\hbox{~}},
+    frametitlebackgroundcolor=exampleColor
+}
+\newmdenv[style=exampleStyle]{example}
+
+\newcounter{procedure}[section]
+\renewcommand{\theprocedure}{\arabic{chapter}-\arabic{procedure}}
+\mdfdefinestyle{procedureStyle}{style=basicFrameStyle}
+\mdfapptodefinestyle{procedureStyle}{
+    linecolor=procedureColor,
+    settings={\stepcounter{procedure}},
+    frametitle={~Procedure~\theexample\hbox{~}},
+    frametitlebackgroundcolor=procedureColor
+}
+\newmdenv[style=procedureStyle]{procedure}
+
+\newcounter{definition}[section]
+\renewcommand{\thedefinition}{\arabic{chapter}-\arabic{definition}}
+\mdfdefinestyle{definitionStyle}{style=basicFrameStyle}
+\mdfapptodefinestyle{definitionStyle}{
+    linecolor=definitionColor,
+    settings={\stepcounter{definition}},
+    frametitle={~Definition~\theexample\hbox{~}},
+    frametitlebackgroundcolor=definitionColor
+}
+\newmdenv[style=definitionStyle]{definition}
+
+\newcounter{theorem}[section]
+\renewcommand{\thetheorem}{\arabic{chapter}-\arabic{theorem}}
+\mdfdefinestyle{theoremStyle}{style=basicFrameStyle}
+\mdfapptodefinestyle{theoremStyle}{
+    linecolor=theoremColor,
+    settings={\stepcounter{theorem}},
+    frametitle={~Theorem~\theexample\hbox{~}},
+    frametitlebackgroundcolor=theoremColor
+}
+\newmdenv[style=theoremStyle]{theorem}
+
+
+\begin{document}
+\title{College Algebra Lecture Notes}
+\subtitle{2016 Spring}
+\author{Andrew Cousino}
+\maketitle
+
+\frontmatter
+\tableofcontents
+\listoffigures
+\listoftables
+
+\mainmatter
+\part{Equations and Inequalities}
+\include{1315-Numbers_and_Sets}
+\include{1315-Linear_Eqns}
+\include{1315-Complex_Nums}
+\include{1315-Quadratic_Eqns}
+\include{1315-Poly_Rational_Eqns}
+\include{1315-Poly_Rational_Ineq}
+
+\part{Functions and Relations}
+\chapter{Graphs and Circles}
+\chapter{Functions and Their Graphs}
+\chapter{Transformations of Functions}
+\chapter{Arithmetic of Functions}
+\chapter{Inverse Functions}
+
+\part{Library of Functions}
+\chapter{Linear Functions}
+\chapter{Quadratic Functions}
+\chapter{Polynomial Functions}
+\chapter{Dividing Polynomials}
+\chapter{Zeros of Polynomial Functions}
+\chapter{Rational Functions}
+\chapter{Exponential Functions}
+\chapter{Logarithmic Functions}
+
+\part{Linear Systems}
+\chapter{System of Linear Equations}
+\chapter{Introduction to Matrices}
+\chapter{Inconsistent and Dependent Systems}
+\chapter{Arithmetic with Matrices}
+\chapter{Inverse Matrices and Matrix Equations}
+
+%\backmatter
+%\printglossary[style=index]
+%\printsymbols
+%\printindex
+\end{document}
