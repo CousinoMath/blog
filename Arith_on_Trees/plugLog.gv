@@ -1,0 +1,9 @@
+strict digraph plusLog {
+log1, log2 [label="log"];
+plus [label="+"];
+x [label="x"];
+y [label="y"];
+plus -> {log1, log2};
+log1 -> x;
+log2 -> y;
+}

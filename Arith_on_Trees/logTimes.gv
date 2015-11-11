@@ -1,0 +1,7 @@
+strict digraph logTimes {
+log [label="log"];
+mult [label="&times;"];
+x [label="x"];
+y [label="y"];
+log -> mult -> {x, y};
+}

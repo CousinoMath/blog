@@ -1,0 +1,9 @@
+strict digraph distrib1 {
+mult [label="&times;"];
+plus [label="+"];
+a [label="a"];
+b [label="b"];
+c [label="c"];
+mult -> {a, plus};
+plus -> {b, c};
+}

@@ -1,0 +1,9 @@
+strict digraph timePow {
+ax [shape=record, label="a | x"];
+ay [shape=record, label="a | y"];
+mult [label="&times;"];
+pow1, pow2 	[label="^"];
+mult -> {pow1, pow2};
+pow1 -> ax;
+pow2 -> ay;
+}

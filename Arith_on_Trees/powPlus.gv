@@ -1,0 +1,9 @@
+strict digraph powPlus {
+pow [shape=record, label="<pow0>|^|<pow1>"];
+x [label="x"];
+y [label="y"];
+a [label="a"];
+plus [label="+"];
+pow:pow0 -> a;
+pow:pow1 -> plus -> {x, y};
+}
