@@ -1,0 +1,6 @@
+strict digraph plusComm3 {
+plus [label="+"];
+a [label="a"];
+b [label="b"];
+plus -> {a, b};
+}

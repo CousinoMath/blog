@@ -1,8 +1,8 @@
-strict digraph timesAssoc1 {
+strict digraph timesAssoc2 {
 times1, times2 [label="&times;"];
 a [label="a"];
 b [label="b"];
 c [label="c"];
-times1 -> {a, times2};
-times2 -> {b, c};
+times1 -> {times2, c};
+times2 -> {a, b};
 }

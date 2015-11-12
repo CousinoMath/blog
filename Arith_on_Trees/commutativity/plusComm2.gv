@@ -1,4 +1,4 @@
-strict digraph plusComm1 {
+strict digraph plusComm2 {
 plus [shape=record, label="<p0>|+|<p1>"];
 a [label="a"];
 b [label="b"];

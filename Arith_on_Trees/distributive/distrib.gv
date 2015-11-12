@@ -1,0 +1,22 @@
+strict digraph distrib1 {
+compound=true;
+eq [label="="];
+mult1, mult2, mult3 [label="&times;",ordering=out];
+plus1, plus2 [label="+",ordering=out];
+a1, a2, a3 [label="a"];
+b1, b2 [label="b"];
+c1, c2 [label="c"];
+
+eq -> {mult1, plus2};
+
+subgraph cluster0 {
+mult1 -> a1;
+mult1 -> plus1 -> {b1, c1};
+}
+
+subgraph cluster1 {
+plus2 -> {mult2, mult3};
+mult2 -> {a2, b2};
+mult3 -> {a3, c2};
+}
+}
