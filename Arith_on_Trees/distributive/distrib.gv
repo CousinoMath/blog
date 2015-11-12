@@ -1,5 +1,4 @@
-strict digraph distrib1 {
-compound=true;
+strict digraph distrib {
 eq [label="="];
 mult1, mult2, mult3 [label="&times;",ordering=out];
 plus1, plus2 [label="+",ordering=out];

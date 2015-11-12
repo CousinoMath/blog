@@ -1,6 +1,5 @@
 strict digraph instQuadForm2 {
 pm [shape=record,label="<0>|&plusmn;|<1>"];
-//sqrt [label="&radic;"];
 div [shape=record,label="<0>|&divide;|<1>"];
 two1,two2 [label="2"];
 four [label="4"];

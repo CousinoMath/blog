@@ -1,0 +1,19 @@
+strict digraph minus {
+a1, a2 [label="a"];
+b1, b2 [label="b"];
+uminus [label="-1&times;"];
+minus [shape=record,label="<0>|&minus;|<1>"];
+plus [label="+"];
+eq [label="="];
+
+eq -> {minus, plus};
+subgraph cluster0 {
+minus:0 -> a1;
+minus:1 -> b1;
+}
+
+subgraph cluster1 {
+plus -> {a2, uminus};
+uminus -> b2;
+}
+}
