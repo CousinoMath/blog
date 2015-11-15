@@ -1,0 +1,15 @@
+strict digraph foil {
+times4, times5 [label="&times;",shape=Mcircle,color=blue];
+plus5, plus6 [label="+"];
+a3 [label="a",shape=Mcircle,color=blue];
+b3 [label="b",shape=Mcircle,color=blue];
+c3 [label="c"];
+d3 [label="d"];
+
+plus5 -> {times4, times5};
+times4 -> a3 [color=blue];
+times4 -> plus6 [dir=both,arrowhead=inv,arrowtail=inv];
+times5 -> b3 [color=blue];
+times5 -> plus6 [dir=both,arrowhead=inv,arrowtail=inv];
+plus6 -> {c3, d3};
+}

@@ -1,10 +1,11 @@
 strict digraph instQuadForm2 {
-pm [shape=record,label="<0>|&plusmn;|<1>"];
+pm [shape=record,label="<0>|&plusmn;|<1>", style=dashed];
 div [shape=record,label="<0>|&divide;|<1>"];
-two1,two2 [label="2"];
-four [label="4"];
+two1 [label="2"];
+two2 [label="2", style=dashed];
+four [label="4", style=dashed];
 div:0 -> pm;
 div:1 -> two1;
-pm:0 -> four;
-pm:1 -> two2;
+pm:0 -> four [style=dashed];
+pm:1 -> two2 [style=dashed];
 }

@@ -1,0 +1,14 @@
+strict digraph foil1 {
+times1 [label="&times;",shape=Mcircle,color=blue];
+plus1 [label="+"];
+plus2 [label="+",shape=Mcircle,color=blue];
+a1 [label="a"];
+b1 [label="b"];
+c1 [label="c",shape=Mcircle,color=blue];
+d1 [label="d",shape=Mcircle,color=blue];
+
+times1 -> plus1 [dir=both,arrowhead=inv,arrowtail=inv];
+plus1 -> {a1, b1};
+times1 -> plus2 [color=blue];
+plus2 -> {c1, d1} [color=blue];
+}

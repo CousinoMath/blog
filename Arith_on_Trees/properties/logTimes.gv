@@ -1,7 +1,22 @@
 strict digraph logTimes {
-log [label="log"];
+log1, log2, log3 [label="log"];
 mult [label="&times;"];
-x [label="x"];
-y [label="y"];
-log -> mult -> {x, y};
+plus [label="+"];
+x1, x2 [label="x"];
+y1, y2 [label="y"];
+eq [label="="];
+
+eq -> log1;
+eq -> plus;
+
+subgraph cluster0 {
+log1 -> mult [dir=both,arrowhead=inv,arrowtail=inv];
+mult -> {x1, y1};
+}
+
+subgraph cluster1 {
+plus -> {log2, log3} [dir=both,arrowhead=inv,arrowtail=inv];
+log2 -> x2;
+log3 -> y2;
+}
 }
