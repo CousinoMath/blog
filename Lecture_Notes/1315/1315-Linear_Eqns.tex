@@ -7,19 +7,28 @@
     \begin{description}[style=nextline]
         \item[Linear Equation] An equation which can be put in the
          form \(\constcolor{a} x + \constcolor{b}=0\).
-        \item[Contradiction, an equation which is a] An equation
-         which has no solution, like \(x + 1 = x\), or is outright
+        \item[Contradiction] An equation or inequality which has no
+         solution, like \(x + 1 = x\), or is outright
          false, like \(0=1\).
-        \item[Identity, an equation which is an] An equation which
-         is true regardless of the value of the variable(s), for
+        \item[Identity] An equation or inequality which is true
+         regardless of the value of the variable(s), for
          example \(\parens{x+1}^{2}-\parens{x-1}^{2}=4 x\).
-        \item[Conditional Equation] An equation which is true when
+        \item[Conditional] An equation or inequality which is true when
          the variables have certain values, and is false otherwise.
-         These are the equations you know and love/hate.
+    \end{description}
+    \textbf{\Large\sffamily Notations}
+    \begin{description}[style=nextline]
+    	\item[Interval Notation] A method of denoting an interval using
+    	`\(\left(\right.\)', `\(\left[\right.\)', `\(\left.\right)\)',
+    	and `\(\left.\right]\)' to indicate the inclusion
+    	`\(\left[\right]\)' or exclusion `\(\left(\right)\)' of
+    	endpoints. `\(\cup\)' is used to join together intervals when 
+    	needed.
     \end{description}
 \end{genericFrame}
 
-\section{Linear Equation Models}
+\section{Linear Equations}
+\subsection{Examples}
 \begin{example}
 	The cost, in dollars, to rent a storage unit for \(t\) months is
     given by \(C\defeq 150 + 52.50 t\). If you have \$1,200 budgeted 
@@ -94,7 +103,7 @@
 	So ordering up to 159 signs, company A is cheaper. But when ordering over 159 signs, company B is cheaper.
 \end{example}
 
-\section{Contradictions and Identities}
+\subsection{Contradictions and Identities}
 An equation involving the variable \(x\) that is true when \(x\) is one
 value but false when \(x\) is another value is called a
 \textbf{conditional equation}. There are equations which are true
@@ -148,104 +157,6 @@ are \textbf{contradictions}.
 \end{example}
 
 \section{Linear Inequalties}
-\begin{example}
-	Donovan has offers for two different sales jobs. Job A pays a base 
-	salary of \$25,000 plus 10\% commission on all sales. Job B pays a 
-	base salary of \$30,000 plus 8\% commission. How much would 
-	Donovan have to sell for the salary from Job A to exceed that of 
-	Job B?
-	
-	\begin{align*}
-		A & \defeq 25000 + 0.10 x \\
-		B & \defeq 30000 + 0.08 x \\
-		A & \gt B \\
-		25000 + 0.10 x & \gt 30000 + 0.08 x \\
-		0.02 x & \gt 5000 \\
-		x & \gt 250000 \\
-	\end{align*}
-	So the solution set is the interval 
-	\(\intervaloo{250,000}{+\infty}\). This means that Donovan must 
-	sell at least \$250,000 in order for Job A to pay better than Job 
-	B.
-\end{example}
-
-\begin{example}
-	Body temperature usually between 36.5\,\celsius and 
-	37.5\,\celsius. Given that \(C=\frac{5}{9} \parens{F - 32}\) 
-	converts from
-	\(F\)\,\fahrenheit to \(C\)\,\celsius, find the typical range for 
-	body temperature in \fahrenheit.
-	
-	\begin{gather}
-		36.5 \lt C \lt 37.5 \\
-		36.5 \lt \frac{5}{9}\parens{F - 32} \lt 37.5 \\
-		4.5 \lt \frac{5}{9} F - \frac{160}{9} \lt 5.5 \\
-		\frac{977}{18} \lt \frac{5}{9} F \lt \frac{995}{18} \\
-		\frac{977}{10} \lt F \lt \frac{199}{2} \\
-		97.7 \lt F \lt 99.5 \\
-	\end{gather}
-	
-	In Fahrenheit, typical body temperature ranges between 
-	97.5--99.5\,\fahrenheit.
-\end{example}
-
-\begin{example}
-	For what values of \(x\) will the following expressions avoid 
-	taking square roots of negative numbers.
-	
-	\begin{enumerate}
-		\item \(\sqrt{x-6}\)
-		\item \(\sqrt{6-x}\)
-	\end{enumerate}
-	
-	\begin{enumerate}
-		\item \begin{align*}
-			x - 6 & \geq 0 \\
-			x & \geq 6 \\
-		\end{align*}
-		The values of \(x\) that avoid square roots of negative 
-		numbers are the values of the interval 
-		\(\intervalco{6}{+\infty}\).
-		
-		\item \begin{align*}
-			6 - x & \geq 0 \\
-			6 & \geq x \\
-			x & \leq 6 \\
-		\end{align*}
-		The desired values of \(x\) are exactly those in the interval 
-		\(\intervaloc{-\infty}{6}\).
-	\end{enumerate}
-\end{example}
-
-\begin{example}
-	Solve the following inequalities.
-	\begin{enumerate}
-		\item \(3\parens{2 x + 1} + 4\leq 6 x + 2\)
-		\item \(9 + 4 c\gt 3\parens{c + 1} + c\)
-	\end{enumerate}
-	
-	\begin{enumerate}
-		\item \begin{align*}
-			3\parens{2 x + 1} + 4 & \leq 6 x + 2 \\
-			6 x + 3 + 4 & \leq 6 x + 2 \\
-			7 & \leq 2 \\
-		\end{align*}
-		This is a contradiction. So the original inequality is a 
-		contradiction and has no solution. The solution set is empty 
-		\(\emptyset\).
-		
-		\item \begin{align*}
-			9 + 4 c & \gt 3\parens{c + 1} + c \\
-			9 + 4 c & \gt 3 c + 3 + c \\
-			9 + 4 c & \gt 4 c + 3 \\
-			6 & \gt 0 \\
-		\end{align*}
-		This is always true. So the original inequality is an identity 
-		and every \(x\)-value is a solution. The solution set is all 
-		reals \(\reals\).
-	\end{enumerate}
-\end{example}
-
 \subsection{Interval Notation}
 Most of the sets that we work with in this class will be written in a
 style known as interval notations. As the name suggests, this notation
@@ -441,3 +352,102 @@ intervals, say for example \(\intervalco{-1}{2}\) and
 			\draw[shift={(\x,0)}] (0,-3pt) node[below] {\(\x\)};
 	\end{tikzpicture}
 \end{center}
+
+\subsection{Examples of Linear Inequalities}
+\begin{example}
+	Donovan has offers for two different sales jobs. Job A pays a base 
+	salary of \$25,000 plus 10\% commission on all sales. Job B pays a 
+	base salary of \$30,000 plus 8\% commission. How much would 
+	Donovan have to sell for the salary from Job A to exceed that of 
+	Job B?
+	
+	\begin{align*}
+		A & \defeq 25000 + 0.10 x \\
+		B & \defeq 30000 + 0.08 x \\
+		A & \gt B \\
+		25000 + 0.10 x & \gt 30000 + 0.08 x \\
+		0.02 x & \gt 5000 \\
+		x & \gt 250000 \\
+	\end{align*}
+	So the solution set is the interval 
+	\(\intervaloo{250,000}{+\infty}\). This means that Donovan must 
+	sell at least \$250,000 in order for Job A to pay better than Job 
+	B.
+\end{example}
+
+\begin{example}
+	Body temperature usually between 36.5\,\celsius and 
+	37.5\,\celsius. Given that \(C=\frac{5}{9} \parens{F - 32}\) 
+	converts from
+	\(F\)\,\fahrenheit to \(C\)\,\celsius, find the typical range for 
+	body temperature in \fahrenheit.
+	
+	\begin{gather}
+		36.5 \lt C \lt 37.5 \\
+		36.5 \lt \frac{5}{9}\parens{F - 32} \lt 37.5 \\
+		4.5 \lt \frac{5}{9} F - \frac{160}{9} \lt 5.5 \\
+		\frac{977}{18} \lt \frac{5}{9} F \lt \frac{995}{18} \\
+		\frac{977}{10} \lt F \lt \frac{199}{2} \\
+		97.7 \lt F \lt 99.5 \\
+	\end{gather}
+	
+	In Fahrenheit, typical body temperature ranges between 
+	97.5--99.5\,\fahrenheit.
+\end{example}
+
+\begin{example}
+	For what values of \(x\) will the following expressions avoid 
+	taking square roots of negative numbers.
+	
+	\begin{enumerate}
+		\item \(\sqrt{x-6}\)
+		\item \(\sqrt{6-x}\)
+	\end{enumerate}
+	
+	\begin{enumerate}
+		\item \begin{align*}
+			x - 6 & \geq 0 \\
+			x & \geq 6 \\
+		\end{align*}
+		The values of \(x\) that avoid square roots of negative 
+		numbers are the values of the interval 
+		\(\intervalco{6}{+\infty}\).
+		
+		\item \begin{align*}
+			6 - x & \geq 0 \\
+			6 & \geq x \\
+			x & \leq 6 \\
+		\end{align*}
+		The desired values of \(x\) are exactly those in the interval 
+		\(\intervaloc{-\infty}{6}\).
+	\end{enumerate}
+\end{example}
+
+\begin{example}
+	Solve the following inequalities.
+	\begin{enumerate}
+		\item \(3\parens{2 x + 1} + 4\leq 6 x + 2\)
+		\item \(9 + 4 c\gt 3\parens{c + 1} + c\)
+	\end{enumerate}
+	
+	\begin{enumerate}
+		\item \begin{align*}
+			3\parens{2 x + 1} + 4 & \leq 6 x + 2 \\
+			6 x + 3 + 4 & \leq 6 x + 2 \\
+			7 & \leq 2 \\
+		\end{align*}
+		This is a contradiction. So the original inequality is a 
+		contradiction and has no solution. The solution set is empty 
+		\(\emptyset\).
+		
+		\item \begin{align*}
+			9 + 4 c & \gt 3\parens{c + 1} + c \\
+			9 + 4 c & \gt 3 c + 3 + c \\
+			9 + 4 c & \gt 4 c + 3 \\
+			6 & \gt 0 \\
+		\end{align*}
+		This is always true. So the original inequality is an identity 
+		and every \(x\)-value is a solution. The solution set is all 
+		reals \(\reals\).
+	\end{enumerate}
+\end{example}
