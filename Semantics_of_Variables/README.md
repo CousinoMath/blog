@@ -3,7 +3,7 @@
 I was talking to
 [@misscalcul8](https://twitter.com/misscalcul8/status/666474645906944001)
 about representations of linear inequalities. She viewed the solutions
-of the inequalities as regions in the coordinate plane. She was
+of the inequalities as regions in the coordinate plane, and was
 intrigued by representing the solutions as intervals on the number line.
 This reminded me of the various semantic roles that variables play.
 
@@ -13,20 +13,22 @@ This is the initial idea of a variable that we present to students.
 Here, a variable has a particular, but unknown value. We can learn the
 value of the variable by solving an equation. For example, under this
 interpretation, the equation `\(2 x + 7 = 21\)` translates to the
-question “What number, call it `\(x\)`, when doubled and added to
-7 equals 21?” By solving the equation, we solve the mystery to
-discover the value of `\(x\)` to be 7.
+question “What number when doubled and added to 7 equals 21?” By solving
+the equation, we discover the value of `\(x\)` to be 7.
 
 Whenever a variable is seen to have a fixed but unknown value, our goal
 is to learn the actual value. It is as if the value of the variable,
-usually `\(x\)`, is hidden and locked away. We may uncover and retrieve
-the value by employing algebra. This conception of a variable works well
-for equations with exactly one solution, but can be extended to other
+usually `\(x\)`, is hidden and locked away. We may retrieve the value by
+employing algebra. This conception of a variable works well for
+equations with exactly one solution, but can be extended to other
 situations. For equations with more than one solution, like
 `\(x^{2}=4\)`, we cannot deduce the true value of `\(x\)`. But we can
 conclude that the correct value is either `\(2\)` or `\(-2\)`.
 Similarly, inequalities will not typically yield the one true value but
-are only able to restrict the possibilities.
+are only able to restrict the possibilities of what the true value can
+be. For example, the solution to `\(x^{2}\leq 4\)` is **exactly** one
+of the values between `\(-2\)` and `\(2\)`, rather than being **any**
+value in this interval.
 
 When dealing with two or more variables, the fixed but unknown value
 interpretation of variables is workable but not profitable. Take
@@ -36,8 +38,8 @@ there cannot be another other values of `\(x\)` and `\(y\)`. Instead of
 a line on the coordinate plane, the solution here is a single point.
 Granted, if we know nothing about the variables beyond the equation, the
 set of possible solutions is `\(\left\{ (t, 2 t + 3)\mid
-t\in\mathbb{R}\right\}\)`, but according to this view, only one point is
-the correct solution.
+t\in\mathbb{R}\right\}\)`. But according to this view, only one point,
+among the possible solutions, is **the** correct solution.
 
 In summary, we start teaching algebra by introducing it to students as
 “solving for the unknown”. By doing so, we instill in them
@@ -64,29 +66,29 @@ variables. Graphs on the coordinate plane demand that the input variable
 be permitted to take on many different values, one for each point on the
 graph.  Despite students’ struggles, combining graphical and
 algebraic perspectives reveals a treasure of insight. Even in college
-algebra, we can ask deep questions like “as `\(x\)` increases does
+algebra, we can ask deep questions like “as `\(x\)` increases, does
 `\(y\)` increase, decrease, or remain constant?” or “as
 `\(x\)` increases, does the rate of increase of `\(y\)` accelerate,
 decelerate, or remain the same?”
 
 Despite being a familiar and fascinating perspective, variables as
 changing quantities is rather sophisticated and is probably not the way
-to introduce students to algebra.
+to introduce students to elementary algebra.
 
 ## Fixed, Arbitrary Value ##
 
 One might instead call these kinds of variables parameters. In the
 point-slope form of a line
 `\(y = \color{blue}{m} x + \color{blue}{b}\)`, the symbols
-‘`\(y\)`’ and ‘`\(x\)`’ are varying quantity
-variables; and ‘`\(\color{blue}{m}\)`’ and ‘`\(\color{blue}{b}\)`’ are
-parameters. They aren’t values which are thought to change with `\(x\)`
-and `\(y\)`. While they can change, these parameters are seen as having
-values independent of the other variables. Like the fixed, unknown
-variables, parameters are seen as placeholders, which are to be replaced
-by their value in specific contexts.
+‘`\(y\)`’ and ‘`\(x\)`’ are varying quantities; and
+‘`\(\color{blue}{m}\)`’ and ‘`\(\color{blue}{b}\)`’ are parameters. They
+aren’t values which are thought to change with `\(x\)` and `\(y\)`.
+While they can change, these parameters are seen as having values
+independent of the other variables. Like the fixed, unknown variables,
+parameters are seen as placeholders, which are to be replaced by their
+value in specific contexts.
 
-## indeterminate Value ##
+## Indeterminate Value ##
 
 indeterminate variables appear in more theoretical mathematics, when
 variables don’t have to represent for anything. For most people,
@@ -97,22 +99,21 @@ are equal when `\(x = 1\)`. But we also say that `\(p(x)\)` and
 `\(p(x)=q(x)\)` if and only if `\(x = 1\)`; and in the other sense, we
 have that `\(p(x)\neq q(x)\)`. The difference lies in the role of
 `\(x\)`. If the variable is a fixed or varying quantity, then the
-equation `\(p(x)=q(x)\)` is a prompt to solve for `\(x\)`, to find what
-value(s) of `\(x\)` makes this equation true. If the variable is
-indeterminate and doesn't represent a number, the `\(p(x)=q(x)\)` is a
-statement about the algebraic equivalence of the two polynomials.
+equation `\(p(x)=q(x)\)` is a prompt to solve for `\(x\)` in order to
+find what value(s) of `\(x\)` makes this equation true. If the variable
+is indeterminate, then it doesn't represent a number. So `\(p(x)=q(x)\)`
+is a statement about the algebraic equivalence of the two polynomials.
 Equality holds if we can algebraic manipulate `\(p(x)\)` to look exactly
-the same as `\(q(x)\)`. But if there are essential algebraic
-differences, which is the case for `\(p(x) = 2 + 5 x\)` and
+the same as `\(q(x)\)`, or vice-versa. But if there are essential
+algebraic differences, which is the case for `\(p(x) = 2 + 5 x\)` and
 `\(q(x) = 5 + 2 x\)`, then we have that `\(p(x)\neq q(x)\)`. For
 polynomials, two polynomials are equal if and only if their
 coefficients, in standard form, are equal.
 
 In other words, `\(p(x)=q(x)\)` asks “are these curves identical?” when
-`\(x\)` is indeterminate, and `\(p(x)=q(x)\)` asks “do these curves
-intersect?” otherwise. There are more, deeper examples such as
-polynomials in modular arithmetic, formal power series, and generators
-for free objects. But it is sufficient to show that this meaning gives
-us a mathematical way of saying that two functions can intersect, and
-yet still be different functions, such expressive power is justification
-enough for many.
+`\(x\)` is indeterminate, and “do these curves intersect?” otherwise.
+There are more, deeper examples such as polynomials in modular
+arithmetic, formal power series, and generators for free objects. But it
+is sufficient to show that this meaning gives us a mathematical way of
+saying that two functions can intersect, and yet still be different
+functions, such expressive power is justification enough for many.
