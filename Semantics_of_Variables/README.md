@@ -27,8 +27,8 @@ conclude that the correct value is either `\(2\)` or `\(-2\)`.
 Similarly, inequalities will not typically yield the one true value but
 are only able to restrict the possibilities of what the true value can
 be. For example, the solution to `\(x^{2}\leq 4\)` is **exactly** one
-of the values between `\(-2\)` and `\(2\)`, rather than being **any**
-value in this interval.
+of the two values `\(-2\)` and `\(2\)`, rather than being **any**
+value.
 
 When dealing with two or more variables, the fixed but unknown value
 interpretation of variables is workable but not profitable. Take
@@ -90,7 +90,7 @@ value in specific contexts.
 
 ## Indeterminate Value ##
 
-indeterminate variables appear in more theoretical mathematics, when
+Indeterminate variables appear in more theoretical mathematics, when
 variables don’t have to represent for anything. For most people,
 equality between polynomials is where this idea can be seen. We can say
 that the two polynomials `\(p(x) = 2 + 5 x\)` and `\(q(x) = 5 + 2 x\)`
@@ -98,17 +98,18 @@ are equal when `\(x = 1\)`. But we also say that `\(p(x)\)` and
 `\(q(x)\)` are **different** polynomials. In one sense, we have that
 `\(p(x)=q(x)\)` if and only if `\(x = 1\)`; and in the other sense, we
 have that `\(p(x)\neq q(x)\)`. The difference lies in the role of
-`\(x\)`. If the variable is a fixed or varying quantity, then the
-equation `\(p(x)=q(x)\)` is a prompt to solve for `\(x\)` in order to
-find what value(s) of `\(x\)` makes this equation true. If the variable
-is indeterminate, then it doesn't represent a number. So `\(p(x)=q(x)\)`
-is a statement about the algebraic equivalence of the two polynomials.
-Equality holds if we can algebraic manipulate `\(p(x)\)` to look exactly
-the same as `\(q(x)\)`, or vice-versa. But if there are essential
-algebraic differences, which is the case for `\(p(x) = 2 + 5 x\)` and
-`\(q(x) = 5 + 2 x\)`, then we have that `\(p(x)\neq q(x)\)`. For
-polynomials, two polynomials are equal if and only if their
-coefficients, in standard form, are equal.
+`\(x\)` (and [the role of ‘=’](http://cousinomath.website/)). If the
+variable is a fixed or varying quantity, then the equation
+`\(p(x)=q(x)\)` is a prompt to solve for `\(x\)` in order to find what
+value(s) of `\(x\)` makes this equation true. If the variable is
+indeterminate, then it doesn't represent a number. So `\(p(x)=q(x)\)` is
+a statement about the algebraic equivalence of the two polynomials.
+Equality holds in this case if we can algebraic manipulate `\(p(x)\)` to
+look exactly the same as `\(q(x)\)`, or vice-versa. But if there are
+essential algebraic differences, which is the case for
+`\(p(x) = 2 + 5 x\)` and `\(q(x) = 5 + 2 x\)`, then we have that
+`\(p(x)\neq q(x)\)`. For polynomials, two polynomials are equal if and
+only if their coefficients, in standard form, are equal.
 
 In other words, `\(p(x)=q(x)\)` asks “are these curves identical?” when
 `\(x\)` is indeterminate, and “do these curves intersect?” otherwise.
