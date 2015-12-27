@@ -7,6 +7,8 @@ of the inequalities as regions in the coordinate plane, and was
 intrigued by representing the solutions as intervals on the number line.
 This reminded me of the various semantic roles that variables play.
 
+So far, these four roles are all that I have been able to identify.
+
 ## Fixed, Unknown Value ##
 
 This is the initial idea of a variable that we present to students.
@@ -102,7 +104,7 @@ have that `\(p(x)\neq q(x)\)`. The difference lies in the role of
 variable is a fixed or varying quantity, then the equation
 `\(p(x)=q(x)\)` is a prompt to solve for `\(x\)` in order to find what
 value(s) of `\(x\)` makes this equation true. If the variable is
-indeterminate, then it doesn't represent a number. So `\(p(x)=q(x)\)` is
+indeterminate, then it doesn’t represent a number. So `\(p(x)=q(x)\)` is
 a statement about the algebraic equivalence of the two polynomials.
 Equality holds in this case if we can algebraic manipulate `\(p(x)\)` to
 look exactly the same as `\(q(x)\)`, or vice-versa. But if there are
@@ -118,3 +120,8 @@ arithmetic, formal power series, and generators for free objects. But it
 is sufficient to show that this meaning gives us a mathematical way of
 saying that two functions can intersect, and yet still be different
 functions, such expressive power is justification enough for many.
+
+## Conclusion ##
+
+Can you think of another role or that there should be fewer roles?
+Please let me know what you think in the comments below.
