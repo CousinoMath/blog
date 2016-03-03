@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<!--
+NOTE:
+1) Add padding to entire page on large screens
+2) Test in Edge and Chrome
+-->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="syllabus.css">
+	<!--
+	<style>
+	//Paste minified file here
+	</style>
+	-->
+</head>
+<body>
+<article>
+	<hgroup>
+		<h1 class="title">{{#course}}Math {{number}}: {{title}}{{/course}}</h1>
+		<h2 class="subtitle">{{#semester}}{{name}}{{/semester}} Syllabus</h2>
+	</hgroup>
+	<div class="quotation">
+		<blockquote cite="https://www.gutenberg.org/files/25447/25447-h/25447-h.htm#IV">
+			<p>Mathematics, rightly viewed, possesses not only truth, but
+			supreme beauty—a beauty cold and austere like that of a
+			sculpture.</p>
+			<br>
+			<cite>Bertrand Russell in Mysticism and Logic and Other Essays, Chapter 4</cite>
+		</blockquote>
+		<blockquote cite="https://www.princeton.edu/~hos/h291/assayer.htm">
+			<p>The universe stands continually open to our gaze, but it
+			cannot be understood unless one first learns to comprehend
+			the language … in which it is written.  It is written in
+			the language of mathematics, …</p>
+			<br>
+			<cite>Galileo, paraphrased from The Assayer</cite>
+		</blockquote>
+	</div>
+	<section>
+		<h3>Pertinent Information</h3>
+		<div class="two-column">
+			<div class="header-two-column"></div>
+			<div class="first-two-column">
+				<h4>Class Information</h4>
+				<table>
+					<tbody>
+						<tr>
+							<th scope="row">Course</th>
+							<td>Math {{#course}}{{number}}{{/course}}</td>
+						</tr>
+						<tr>
+							<th scope="row">Section</th>
+							<td>{{#class}}{{section}}{{/class}}</td>
+						</tr>
+						<tr>
+							<th scope="row">Semester</th>
+							<td>{{#semester}}{{name}}{{/semester}}</td>
+						</tr>
+						<tr>
+							<th scope="row">Location</th>
+							<td>{{#class}}{{location}}{{/class}}</td>
+						</tr>
+						<tr>
+							<th scope="row">Time</th>
+							<td>{{#class}}{{time}}{{/class}}</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="second-two-column">
+				<h4>Instructor Information</h4>
+				<table>
+					<tbody>
+						<tr>
+							<th scope="row">Name</th>
+							<td>Andrew Cousino</td>
+						</tr>
+						<tr>
+							<th scope="row">Office</th>
+							<td>Derrick Hall 213</td>
+						</tr>
+						<tr>
+							<th scope="row">Phone</th>
+							<td>(512) 245-4742</td>
+						</tr>
+						<tr>
+							<th scope="row">Email</th>
+							<td><a href="mailto:acousino@txstate.edu">acousino@txstate.edu</a></td>
+						</tr>
+						<tr>
+							<th scope="row">Office<br>Hours</th>
+							<td>{{#semester}}{{office_hours}}{{/semester}}</td>
+						</tr>						
+					</tbody>
+				</table>
+			</div>
+			<div class="footer-two-column"></div>
+		</div>
+		<div>
+			<h4>Textbook &amp; Other Materials</h4>
+			<ul>{{#course}}
+				{{#textbook}}
+				<li>{{title}}</li>
+				{{/textbook}}
+				{{#required_materials}}
+				<li>{{material}}</li>
+				{{/required_materials}}
+				{{/course}}
+			</ul>
+		</div>
+		<div>
+			<h4><a name="dates">Important Dates</a></h4>
+			<ul>{{#class}}
+				<li>Tentative Exam Dates
+					<ul>
+						<li>{{exam1_date}}</li>
+						<li>{{exam2_date}}</li>
+						<li>{{exam3_date}}</li>
+					</ul>
+				</li>
+				<li>Final Exam&mdash;{{final_exam_date}}</li>
+				{{/class}}{{#semester}}
+				<li>Drop Dates
+					<ul>
+						<li>{{full_refund}} is the last day to drop and get a full refund</li>
+						<li>{{no_W}} is the last day to drop with a &lsquo;W&rsquo;</li>
+						<li>{{no_withdraw}} is the last day to withdraw from the university entirely</li>
+					</ul>
+				</li>
+				{{/semester}}
+			</ul>
+			
+		</div>
+		<div>
+			<h4><a name="tutoring">Tutoring Labs</a></h4>
+			<ul>
+				<li><a href="http://www.math.txstate.edu/resources/lab.html">Math Lab</a> in Derrick Hall 233, Monday–Thursday 8:00–19:00 and Friday 8:00–17:00</li>
+				<li><a href="http://www.txstate.edu/slac/">SLAC</a> in Alkek 411, Monday–Friday 8:00–17:00</li>
+				<li><a href="http://hlsamp.cose.txstate.edu/clc/clc-home.html">CLC</a> in Roy F Mitte (RFM) 4203, Monday–Thursday 9:00–18:00</li>					
+			</ul>
+		</div>
+		<div>
+			<h4>Grading</h4>
+			<div>
+				<h5>Attendance</h5>
+				<p>Coming to class is very important. For this reason, and to learn your name, I will take attendance every class. If you cannot make it to class, please let me know beforehand. Even if you are confused, come to class. Confusion is a part of the learning, especially with a subject like math. If you are lost, get in touch with me or drop into one of the <a href="#tutoring">tutoring labs</a>. There are many resources on campus to help you through this class.</p>
+			</div>
+			<div>
+				<h5>Homework</h5>
+				<div id="gradeScale">
+					<table>
+						<thead>
+							<tr>
+								<th scope="col">Grade</th>
+								<th scope="col">Cutoffs</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr><th scope="row">A</th><td>90&ndash;100%</td></tr>
+							<tr><th scope="row">B</th><td>80&ndash;89%</td></tr>
+							<tr><th scope="row">C</th><td>70&ndash;79%</td></tr>
+							<tr><th scope="row">D</th><td>60&ndash;69%</td></tr>
+							<tr><th scope="row">F</th><td>0&ndash;59%</td></tr>
+						</tbody>
+						<caption>Grade Scale</caption>
+					</table>
+				</div>
+				<p>Homework is where you practice the skills with the new techniques and shape your understanding of the new ideas. I try to have reasonable assignments and due dates. In return, I expect that you will turn homework in on time. While I will glance over late homework for errors, I have no obligation to accept late homework. But life can get in the way of homework. So I like to drop the lowest two homework scores from each student’s grade. On each homework, put your name, my name (“Cousino”), and the course (“Math 1315”). This helps to ensure your homework ends up in my hands at the end of the day, even if it gets misplaced.</p>
+				<p>Homework will be graded based upon correctness and not completeness. This is to help better prepare you for exams, which are also graded on correctness. But also, this practice helps to give you more information about what you are doing correctly and what you need more practice doing. In a following section, I explain what <a href="#showWork">showing your work</a> means to me.</p>
+			</div>
+			<div>
+				<h5>Exams</h5>
+				<div id="gradeDistribution">
+					<table>
+						<thead>
+							<tr>
+								<th scope="col">Category</th>
+								<th scope="col">Weights</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr><th scope="row">Attendance</th><td>5%</td></tr>
+							<tr><th scope="row">Homework</th><td>15%</td></tr>
+							<tr><th scope="row">Exam 1</th><td>20%</td></tr>
+							<tr><th scope="row">Exam 2</th><td>20%</td></tr>
+							<tr><th scope="row">Exam 3</th><td>20%</td></tr>
+							<tr><th scope="row">Final Exam</th><td>20%</td></tr>
+						</tbody>
+						<caption>Grade Distribution</caption>
+					</table>
+				</div>
+				<p>There will be three mid-term exams as well as a cumulative final exam. All of the exams will consist of short answer questions, in which you are expected to <a href="#showWork">show your work</a> along with your answer. As mentioned earlier, exams will be graded for correctness and partial credit will be given. The class before each exam, we will have a review for the entire class. At the beginning of each review day, I will list out the topic of each question on the exam and tell you which homework problems are similar to that exam question. I like to announce exam days at least a week prior. Exam dates in the tentative schedule and <a href="#dates">important dates</a> are not written in stone. They are required by the state of Texas. If I feel that we need to spend more time on a topic, then I will do just that. The schedule be damned.</p>
+				<p>Exams are how I assess whether you have learned the subject. The questions on my exam reflect this. I can give justifications for putting each question on every exam. With each question, I think whether it is fair to include it and how it assesses something unique from the others. Because I work hard on the exams, tell you what’s on them, and announce them in advance, I expect you to be in class to take them. If you have to miss any mid-term exam (not the final) for a justifiable reason, let me know prior so we can schedule a make-up exam. Examples of good reasons are serious illness/injury, extracurricular activities, and family emergencies; examples of bad reasons are sleeping through an exam, forgetting about an exam, and not being prepared for an exam.</p>
+			</div>
+			<div>
+				<h5>Showing Your Work</h5>
+				<p>Math is more about the process to get the answer than it is about the answer itself. My rule of thumb is that if I have to show my work, then so do you. When going through examples in class, I will note how much work is expected of you. If you ever are unclear about this, please ask me in class, outside of class, or during an exam.</p>
+			</div>
+		</div>
+		<div>
+			<h4>Technology Used for Instruction</h4>
+			<p><a href="https://tracs.txstate.edu/">TRACS</a> will be the main technological resource for the class.</p>
+			<div>
+				<h5>Calendar &amp; Site Info</h5>
+				<p>I try to post homework due dates and exam dates on the calendar side tab. I also like to setup our course page to allow students to email other students, the entire class, or even groups within the class. You can join one of these groups through the site info tab. The online groups allow you to communicate easily with study groups via your university email to ask questions, schedule study group sessions, and any other class related topics.</p>
+			</div>
+			<div>
+				<h5>Email &amp; Mailing List Archive</h5>
+				<p>You have the ability to email the entire class. This needs to be used for class. There are plenty of other sites and apps for all of your other communications needs. All the emails that I send to the entire class will be kept and stored in the Mailing List Archive.</p>
+			</div>
+			<div>
+				<h5>Gradebook 2 &amp; Attendance</h5>
+				<p>Grades and attendance will be recorded and posted online. I’m not perfect, and may make a mistake in entering a grade. Please let me know as soon as possible if this is the case. I will ask to see your graded assignment to double check, and then will correct my error. So keep all graded work that gets returned to you.</p>
+			</div>
+			<div>
+				<h5>Questions and Answers</h5>
+				<p>This is where you can ask questions of me and of your fellow students. Most importantly, your questions and answers will be anonymous to everyone, including myself, unless you add your name or other identifying information to the post. You can also be notified via email whenever people respond to your question.</p>
+			</div>
+			<div>
+				<h5>Resources &amp; Syllabus</h5>
+				<p>The syllabus will be posted online under its own tab and as a downloadable Word document (in docx format). Under Resources, I will post my lecture notes, in OneNote and PDF formats, to the class as well as solutions to exams from past semesters, as PDFs.</p>
+			</div>
+		</div>
+	</section>
+	<section>
+		<h3>Course Specific Information</h3>
+		{{#course}}
+		<div>
+			<h4>Brief Course Outline</h4>
+			<p>{{brief_course_outline}}</p>
+		</div>
+		<div>
+			<h4>Course Description</h4>
+			<p>{{description}}</p>
+		</div>
+		<div>
+			<h4>Prerequisite</h4>
+			{{#prerequisites}}
+			<p>{{preamble}}</p>
+			<ul>
+				{{#list}}
+				<li>{{prerequisite}}}</li>
+				{{/list}}
+			</ul>
+			{{/prerequisites}}
+		</div>
+		<div>
+			<h4>Objectives</h4>
+			{{#objectives}}
+			<p>{{preamble}}</p>
+			<ul>
+				{{#list}}
+				<li>{{objective}}</li>
+				{{/list}}
+			</ul>
+			{{/objectives}}
+		</div>
+		{{/course}}
+	</section>
+	<section>
+		<h3>Boilerplate</h3>
+		<div>
+			<h4>Electronic Devices in the Classroom</h4>
+			<p>Cellphones, pagers, or any device that may distract from the class should be turned off before class begins and may not be on the desk during class or tests.</p>
+		</div>
+		<div>
+			<h4>Special Needs</h4>
+			<p>Students with special needs, as documented by the <a href="http://www.ods.txstate.edu/">Office of Disability Services (ODS)</a>, should identify themselves at the beginning of the semester. If you are one of these students, and you wish to take your exams in the <a href="http://www.txstate.edu/trec/">Testing, Research Support, and Evaluation Center (TREC)</a>, you must make an appointment with them 48 hours in advance.</p>
+		</div>
+		<div>
+			<h4><a href="http://txstate.edu/effective/upps/upps-07-10-01.html">Academic Integrity</a></h4>
+			<blockquote cite="http://txstate.edu/effective/upps/upps-07-10-01.html">
+				As members of a community dedicated to learning,
+	inquiry, and creation, the students, faculty, and administration of our
+	university live by the principles in this Honor Code. These principles
+	require all members of this community to be conscientious, respectful,
+	and honest.
+				<h5>We are conscientious</h5>
+				We complete our work on time and make every effort to do
+	it right. We come to class and meetings prepared and are willing to
+	demonstrate it. We hold ourselves to doing what is required, embrace
+	rigor, and shun mediocrity, special requests, and excuses.
+				<h5>We are respectful</h5>
+				We act civilly toward one another and we cooperate with
+	each other. We will strive to create an environment in which people
+	respect and listen to one another, speaking when appropriate, and
+	permitting other people to participate and express their views.
+				<h5>We are honest</h5>
+				We do our own work and are honest with one another in
+	all matters. We understand how various acts of dishonesty, like
+	plagiarizing, falsifying data, and giving or receiving assistance to
+	which one is not entitled, conflict as much with academic achievement
+	as with the values of honesty and integrity.
+				<h5>The Pledge for students</h5>
+				Students at our university recognize that, to insure
+	honest conduct, more is needed than an expectation of academic honesty,
+	and we therefore adopt the practice of affixing the following pledge of
+	honesty to the work we submit for evaluation:
+				<blockquote>
+					I pledge to uphold the principles of honesty and
+					responsibility at our university.
+				</blockquote>
+				<h5>The pledge for faculty and administration</h5>
+				Faculty at our university recognize that the students
+	have rights when accused of academic dishonesty and will inform the
+	accused of their rights of appeal laid out in the student handbook and
+	inform them of the process that will take place.
+				<blockquote>
+					I recognize students’ rights and pledge to uphold the
+					principles of honesty and responsibility at our
+					university.
+				</blockquote>
+				<h5>Addressing acts of dishonesty</h5>
+				Students accused of dishonest conduct may have their
+	cases heard by the faculty member. The student may also appeal the
+	faculty member’s decision to the Honor Code Council. Students and
+	faculty will have the option of having an advocate present to insure
+	their rights. Possible actions that may be taken range from exoneration
+	to expulsion.
+			</blockquote>
+		</div>
+		<div>
+			<h4>Special Needs</h4>
+			<p>If you are a student with a disability who will require
+an accommodation(s) to participate in this course, please contact me as
+soon as possible. You will be asked to provide documentation from the
+Office of Disability Services. Failure to contact me in a timely manner
+may delay your accommodations.</p>
+		</div>
+	</section>
+</article>
+</body>
+</html>

@@ -1,5 +1,25 @@
 {
-	"name": "cousino-math-syllabus",
-	"version": "0.0.0",
-	"ignore": ["**/.*", "node_modules", "bower_components", "test", "tests"]
+  "name": "cousino-math-syllabus",
+  "version": "0.0.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "homepage": "https://github.com/CousinoMath/Teaching",
+  "authors": [
+    "Andrew Cousino <cousinomath@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "bootstrap": "~3.3.6"
+  }
 }
