@@ -57,7 +57,7 @@ reading outwards.
 The equivalence of the two interpretations of the ordering of two horizontal
 transformations, in the composition viewpoint, amounts to interchanging
 `\(T_{h}\)` and `\(S_{a}\)`. In our example, we have that
-`\(f(2 x - 4)=(f\circ T_{-4}\circ S_{2}\))(x)\)` and
+`\(f(2 x - 4)=(f\circ T_{-4}\circ S_{2})(x)\)` and
 `\(f(2 (x - 2))=(f\circ S_{2}\circ T_{-2})(x)\)` are equal. In general,
 `\((S_{a}\circ T_{h})(z) = a (z + h) = a z + a h = (T_{a h}\circ S_{a})(z)\)`
 for any values of `\(a\)` and `\(h\)`. This provides us with another
@@ -67,5 +67,5 @@ transforms.
 ## Final Thoughts ##
 
 I realize that this is a simple observation. But since, the pervasiveness of
-the `\(y = f(2 (x - 2)\)` method and the simplicity of reversing the order of
+the `\(y = f(2 (x - 2))\)` method and the simplicity of reversing the order of
 operations compelled me to write up this little post.
