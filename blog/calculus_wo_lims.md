@@ -1,15 +1,59 @@
+# Derivatives Without Limits #
+
+In applied calculus courses, it can be the case that limits are only presented
+in order to define derivatives. (Ignoring the limits in Riemann sums which are
+different kinds of limits, because they involve partitions over the reals rather
+than just reals.) 
+
+## Traditional Limit Definitions ##
+
+For context, I will present two equivalent limit definitions of the derivative.
+
+> The derivative of a function `\(f\)` at the point `\(x = \color{blue}{a}\)` is
+> defined to be
+> `\[f'(\color{blue}{a}) = \lim_{h\to 0}\frac{f(\color{blue}{a} + h) - f(\color{blue}{a})}{h} = \lim_{x\to \color{blue}{a}}\frac{f(x) - f(\color{blue}{a})}{x - \color{blue}{a}}\text{.}\]`
+> If one of the limits exists, then the other exists. If neither limit exists,
+> then the derivative of `\(f\)` at `\(x = \color{blue}{a}\)` is said to fail to
+> exist.
+
+## Continuity Definition ##
+
+> The derivative of a function `\(f\)` at the point `\(x = \color{blue}{a}\)` is
+> the value, denoted `\(f'(\color{blue}{a})\)`, which makes the following
+> function continuous at `\(x = \color{blue}{a}\)`
+> `\[\phi(x)\vcentcolon=\left\{\begin{array}{cc}\frac{f(x) - f(\color{blue}{a})}{x - \color{blue}{a}} & x\neq\color{blue}{a} \\ f'(\color{blue}{a}) & x = \color{blue}{a}\right.\text{.}\]`
+
+Like with much of math, there are many other ways to phrase this definition. I
+chose this way because it may be the one that students understand the more
+easily. The reason that this definition doesn't invoke limits is because
+continuity does not need to involve limits. Continuity can be defined with an
+`\(\epsilon\text{-}\delta\)` definition, one which looks similar to the
+definition of limits.
+
 # Calculus Without Limits #
 
-I want to propose the idea that a calculus curriculum can omit limits, at least an applied calculus course like business calculus.
+I want to propose the idea that a calculus curriculum can omit limits, at least
+an applied calculus course like business calculus. The content of this post
+alone would not be sufficient to drop limits in a calculus class that needed to
+discuss `\(\infty\)`. These topics include end-behavior, series, and improper
+integrals.
 
 ## Why Drop Limits ##
 
 We waive our hands at the technical definition of limits in order to
-present a &ldquo;technically&rdquo; complete definition of derivatives.
+present a &ldquo;technically&rdquo; complete definition of derivatives. Instead,
+we could just present derivatives informally without needing to bring up limits.
+Often in applied calculus classes, the sole purpose of limits is to introduce
+derivatives.
 
-And if you discuss `\(\epsilon\text{-}\delta\)` definition of limits, then I charge that your student&rsquo;s don&rsquo;t actually understand the definition, but have just memorized how 
+And if you discuss `\(\epsilon\text{-}\delta\)` definition of limits, then I
+claim that your student&rsquo;s don&rsquo;t actually understand the definition,
+but have just memorized how to prove simplistic `\(\epsilon\text{-}\delta\)`
+examples.
 
-### Derivatives Without Limits ###
+## Derivatives Without Limits ##
+
+
 
 ### Integrals Without Limits ###
 
