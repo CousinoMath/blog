@@ -3,7 +3,7 @@
 A few years ago, my exam questions over extrema and/or inflection points read in
 a way similar to the following.
 
-> For the function `\(f(x) = x^{5} - 5 x\)`, find all extrema and all Inflection
+> For the function `\(f(x)\,\unicode[STIXGeneral]{x2254}\,x^{5} - 5 x\)`, find all extrema and all Inflection
 > points, as well as intervals of monotonicity and intervals of concavity.
 
 But now, I include a graph of the function with the exam questions.
@@ -32,7 +32,7 @@ class time by not having to testing for the sign of derivatives.
 
 ### Disadvantages of Including the Graph and Mitigation ###
 
-There are functions like `\(f(x)\defeq x^{5} - x^{3} - 2 x\)` whose graph does
+There are functions like `\(f(x),\unicode[STIXGeneral]{x2254}\,x^{5} - x^{3} - 2 x\)` whose graph does
 not clearly show concavity. I can avoid such functions on exams without loosing
 assessment value. And for homework and in class, graphing the first and second
 derivatives will clear up any confusion.
