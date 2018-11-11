@@ -1,4 +1,3 @@
-
 # [The MIT License](https://opensource.org/licenses/MIT)
 
 Copyright 2018 Andrew Cousino

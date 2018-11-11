@@ -1,4 +1,4 @@
-# Semantics of Variables #
+# Semantics of Variables
 
 I was talking to
 [@misscalcul8](https://twitter.com/misscalcul8/status/666474645906944001)
@@ -9,7 +9,7 @@ This reminded me of the various semantic roles that variables play.
 
 So far, these four roles are all that I have been able to identify.
 
-## Fixed, Unknown Value ##
+## Fixed, Unknown Value
 
 This is the initial idea of a variable that we present to students.
 Here, a variable has a particular, but unknown value. We can learn the
@@ -39,8 +39,7 @@ inconceivable. If the correct values are `\((x, y)= (-3, 0)\)`, then
 there cannot be another other values of `\(x\)` and `\(y\)`. Instead of
 a line on the coordinate plane, the solution here is a single point.
 Granted, if we know nothing about the variables beyond the equation, the
-set of possible solutions is `\(\left\{ (t, 2 t + 3)\mid
-t\in\mathbb{R}\right\}\)`. But according to this view, only one point,
+set of possible solutions is `\(\left\{ (t, 2 t + 3)\mid t\in\mathbb{R}\right\}\)`. But according to this view, only one point,
 among the possible solutions, is **the** correct solution.
 
 In summary, we start teaching algebra by introducing it to students as
@@ -52,7 +51,7 @@ We quickly want to move to the idea of variables as jointly varying
 quantities when tackling relations with more than one variable,
 and in particular functions.
 
-## Varying Value ##
+## Varying Value
 
 Anyone familiar with algebra is probably most familiar with the idea
 that the value of a variable may vary. A fixed variable is
@@ -66,7 +65,7 @@ must be the case that either `\(x=2\)` or `\(x=-2\)`.”
 The richness of variables as varying quantities is seen with two or more
 variables. Graphs on the coordinate plane demand that the input variable
 be permitted to take on many different values, one for each point on the
-graph.  Despite students’ struggles, combining graphical and
+graph. Despite students’ struggles, combining graphical and
 algebraic perspectives reveals a treasure of insight. Even in college
 algebra, we can ask deep questions like “as `\(x\)` increases, does
 `\(y\)` increase, decrease, or remain constant?” or “as
@@ -77,7 +76,7 @@ Despite being a familiar and fascinating perspective, variables as
 changing quantities is rather sophisticated and is probably not the way
 to introduce students to elementary algebra.
 
-## Fixed, Arbitrary Value ##
+## Fixed, Arbitrary Value
 
 One might instead call these kinds of variables parameters. In the
 point-slope form of a line
@@ -90,7 +89,7 @@ independent of the other variables. Like the fixed, unknown variables,
 parameters are seen as placeholders, which are to be replaced by their
 value in specific contexts.
 
-## Indeterminate Value ##
+## Indeterminate Value
 
 Indeterminate variables appear in more theoretical mathematics, when
 variables don’t have to represent for anything. For most people,
@@ -121,7 +120,7 @@ is sufficient to show that this meaning gives us a mathematical way of
 saying that two functions can intersect, and yet still be different
 functions, such expressive power is justification enough for many.
 
-## Conclusion ##
+## Conclusion
 
 Can you think of another role or that there should be fewer roles?
 Please let me know what you think in the comments below.

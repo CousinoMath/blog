@@ -41,13 +41,13 @@ integrals.
 ## Why Drop Limits ##
 
 We waive our hands at the technical definition of limits in order to
-present a &ldquo;technically&rdquo; complete definition of derivatives. Instead,
+present a “technically” complete definition of derivatives. Instead,
 we could just present derivatives informally without needing to bring up limits.
 Often in applied calculus classes, the sole purpose of limits is to introduce
 derivatives.
 
 And if you discuss `\(\epsilon\text{-}\delta\)` definition of limits, then I
-claim that your student&rsquo;s don&rsquo;t actually understand the definition,
+claim that your student’s don’t actually understand the definition,
 but have just memorized how to prove simplistic `\(\epsilon\text{-}\delta\)`
 examples.
 

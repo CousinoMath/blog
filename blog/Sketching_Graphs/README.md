@@ -1,20 +1,21 @@
-# Asking about Extrema and Inflection Points #
+# Asking about Extrema and Inflection Points
 
 A few years ago, my exam questions over extrema and/or inflection points read in
 a way similar to the following.
 
-> For the function `\(f(x)\,\unicode[STIXGeneral]{x2254}\,x^{5} - 5 x\)`, find all extrema and all Inflection
-> points, as well as intervals of monotonicity and intervals of concavity.
+> For the function `\(f(x)\,\unicode[STIXGeneral]{x2254}\,x^{5} - 5 x\)`, find
+> all extrema and all inflection points, as well as intervals of monotonicity
+> and intervals of concavity.
 
 But now, I include a graph of the function with the exam questions.
 
-[]()
+_TODO_ include graph: []()
 
 Notice how there are no tick marks on the axes. This prevents guessing the
 answers when the answers are at integer points. Here are my thoughts, as well
 as some of my colleagues thoughts, on this change.
 
-### Advantages of Including the Graph ###
+### Advantages of Including the Graph
 
 I include graphs because I feel that students get lost in putting the critical
 points on a number line and testing the intervals in between. Admittedly, while
@@ -30,9 +31,10 @@ I can now use a graphing utility when going over such examples without
 pressuring students to go out an buy a graphing calculator. And I get extra
 class time by not having to testing for the sign of derivatives.
 
-### Disadvantages of Including the Graph and Mitigation ###
+### Disadvantages of Including the Graph and Mitigation
 
-There are functions like `\(f(x),\unicode[STIXGeneral]{x2254}\,x^{5} - x^{3} - 2 x\)` whose graph does
+There are functions like
+`\(f(x),\unicode[STIXGeneral]{x2254}\,x^{5} - x^{3} - 2 x\)` whose graph does
 not clearly show concavity. I can avoid such functions on exams without loosing
 assessment value. And for homework and in class, graphing the first and second
 derivatives will clear up any confusion.
@@ -55,7 +57,7 @@ by using the extra class time to address exercises like the following.
 I would predict that this mitigation would help students build a related, but
 distinct connection between the sign of the first derivative and monotonicity.
 
-## Your Thoughts ##
+## Your Thoughts
 
 Would you predict the same things that I and/or some of my colleagues have?
 

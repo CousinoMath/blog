@@ -25,7 +25,7 @@ symbols.
 \end{align*}\]`
 
 And I continue the coloration with examples like evaluating `\(\log_{3} 81\)`.
-As we&rsquo;re trying to figure out unknown value, we write
+As we’re trying to figure out unknown value, we write
 `\(\log_{3} 81 = ?\)`.
 
 `\[\begin{align*}
@@ -35,15 +35,15 @@ As we&rsquo;re trying to figure out unknown value, we write
   \end{align*}\]`
 
 This means that `\(\log_{3}(81) = 4\)`. Here is where I reinforce the idea
-that the expression `\(\log_{3}(81)\)` asks the question &ldquo;3 to what
-power is 81&rdquo; just like `\(81Ã·3\)` asks &ldquo;3 times what is 81&rdquo;
-and `\(\sqrt[3]{81}\)` asks &ldquo;what number to the 3rd power is 81&rdquo;.
+that the expression `\(\log_{3}(81)\)` asks the question “3 to what
+power is 81” just like `\(81Ã·3\)` asks “3 times what is 81”
+and `\(\sqrt[3]{81}\)` asks “what number to the 3rd power is 81”.
 
 ### Addressing Criticism ###
 
 One obvious critique of this technique is that it emphasizes symbol
 manipulation over deeper understanding. I agree. But deeper understanding often
-comes after superficial symbol shuffling. Unfortunately,  I haven&rsquo;t had
+comes after superficial symbol shuffling. Unfortunately,  I haven’t had
 time in my college-level courses, with about 48 contact hours, to delve into
 helping my students develop a mastery of logarithms. The reality of my
 classroom is aiming for student mastery is near impossible, and a more
@@ -52,7 +52,7 @@ mastery.
 
 One of the ways that I aim for deeper mastery is by reinforcing that the result
 of a logarithm is a question: the expression `\(\log_{3} 81\)` is asking the
-question &ldquo;3 to what power gives the answer 81&rdquo;, and the value of
+question “3 to what power gives the answer 81”, and the value of
 this expression is the answer to its question. Another way I stress mastery is
 solving exponential and logarithmic equations by converting the two, and
 introduce exponentiation and taking logarithms as an ancillary method. Also, I
@@ -63,18 +63,22 @@ emphasize their similarities.
 
 Take for example the product rule,
 
-`\[\begin{align*}
+```
+\[\begin{align*}
   {\color{red}b^{x + y}} &
     = {\color{blue}b^{x}} â‹… {\color{green}b^{y}} &
     âŸ· {\color{red}\log_{b} (u â‹… v)} &
     = {\color{blue}\log_{b} (u)} + {\color{green}\log_{b} (v)}
-  \end{align*}\]`
+  \end{align*}\]
+```
 
-`\[\begin{align*}
+```
+\[\begin{align*}
    \text{Exponentials} & \longleftrightarrow & \text{Logarithms} \\
    \colorbox{red}{ } = \colorbox{blue}{ } \cdot \colorbox{green}{ } &
       \longleftrightarrow & \colorbox{red}{ } = \colorbox{blue}{ } + \colorbox{green}{ }
-   \end{align*}\]`
+   \end{align*}\]
+```
 
 Converting the logs in property to questions results in the statement
 
@@ -86,11 +90,13 @@ This is very verbose, which is why mathematical notation is both efficient and
 comprehensible. If you want an intermediate step, introduce the new variables
 `\(x\)`, `\(y\)`, and `\(z\)` as follows.
 
-`\[\begin{align*}
+```
+\[\begin{align*}
   {\color{red}z} & â‰” {\color{red}\log_{b} (u â‹… v)} & âŸ· {\color{red}b^{z}} & = {\color{red}u â‹… v}\\
   {\color{blue}x} & â‰” {\color{blue}\log_{b} u} & âŸ· {\color{blue}b^{x}} & = {\color{blue} u} \\
   {\color{green}y} & â‰” {\color{green}\log_{b} v} & âŸ· {\color{green}b^{y}} & = {\color{green} v}\\
-  \end{align*}\]`
+  \end{align*}\]
+```
 
 Our verbose question becomes
 
@@ -102,12 +108,14 @@ Our verbose question becomes
 Converting each of the three above equations and the log property to
 exponentials, we get the following.
 
-`\[\begin{align*}
+```
+\[\begin{align*}
   {\color{red}b^{z}} & = {\color{red}u â‹… v} \\
   {\color{blue}b^{x}} & = {\color{blue}u} \\
   {\color{green}b^{y}} & = {\color{green}v} \\
   {\color{red}z} & = {\color{blue}x} + {\color{green}y}
-  \end{align*}\]`
+  \end{align*}\]
+```
 
 Substituting away the variables in the third equation using the other equations,
 we see
