@@ -1,8 +1,8 @@
-## Into the Weeds ##
+## Into the Weeds
 
 The intended audience for this post is primary and secondary school
-teachers, and not their students. There is no “Math
-Symbols” class that universities offer. This knowledge is
+teachers, and not their students. There is no &ldquo;Math
+Symbols&rdquo; class that universities offer. This knowledge is
 acquired incidentally over time spent in many math courses. This post
 tries to distill some of that information into a short essay. Teachers
 may find this helpful in preparing materials or presenting concepts to
@@ -15,30 +15,30 @@ inspiring this post, which is a response to her post
 [Math Symbols Test](http://misscalculate.blogspot.com/2015/08/math-symbols-test.html)
 that contained a definition sheet for math symbols and a test as well.
 
-## Arities—Unary and Binary ##
+## Aritiesï¿½Unary and Binary
 
-Every mathematical symbol can be said to have an arity. The **arity**
+Every mathematical symbol can be said to have an arity. The _arity_
 is simply the number of arguments, or inputs, that the symbol takes.
 For example, consider a generic function `\(f(x)\)`. This newly invoked
 symbol `\(f\)` is a function, and its airty is 1. Because the function
 takes exactly 1 argument.
 
-### Unary ###
+### Unary
 
 A symbol which has an arity of 1, i.e. takes only one argument, is said
-to be a **unary** symbol. In the previous example, the function symbol
+to be a *unary* symbol. In the previous example, the function symbol
 `\(f\)` is unary. But there are more standard mathematical symbols
 which are also unary. Another example is `\(\sqrt{\cdot }\)`, the
 square root as denoted by the radical symbol. A square root on
-it’s own doesn’t make sense, `\(\sqrt{\; }\)`. So a square
+it&rsquo;s own doesn&rsquo;t make sense, `\(\sqrt{\; }\)`. So a square
 root has to take at least one argument. And though the argument to
 square root may be complicated, as in `\(\sqrt{b^{2} - 4 a c}\)`, there
 is still only one argument.
 
-### Binary ###
+### Binary
 
 A symbol which has an arity of 2, i.e. takes exactly two arguments, is
-said to be a **binary** symbol. The usual arithmetic symbols are
+said to be a *binary* symbol. The usual arithmetic symbols are
 binary, such as `\(\cdot +\cdot\)`, `\(\cdot -\cdot\)`,
 `\(\cdot = \cdot\)`, and `\(\cdot\ge\cdot\)`. If you wanted to do so,
 you could call the symbol `\(\overleftrightarrow{\cdot\,\cdot}\)` a
@@ -48,28 +48,28 @@ binary symbol too. This symbol, with two points like `\(A\)` and
 so may not be a good topic to present to your students. We'll continue
 to discuss this symbol later in the post.
 
-## Operators, Functions, and Relations ##
+## Operators, Functions, and Relations
 
 The airty of symbols is one way to group them. Another is their
 functional role. We will discuss the roles known as operators,
 functions, and relations. Functional roles are perhaps the easiest to
 address, because this role is that of a function. In the expression
-“`\(f(x)\)`”, the symbol `\(f\)` is a functional one. When
+&ldquo;`\(f(x)\)`&rdquo;, the symbol `\(f\)` is a functional one. When
 the symbol is paired with an input like 5, the resulting expression,
 `\(f(5)\)`, represents the output.
 
-### Operators ###
+### Operators
 
 Operators are just functions but written in a funny way. If the
 standard way to write mathematical language was in
 [Polish notation](https://en.wikipedia.org/wiki/Polish_notation), then
-the expression “`\(3 + 5\)`” would be written as
-“`\(+\: 3\: 5\)`”. Knowing that `\(+\)` is a binary symbol,
+the expression &ldquo;`\(3 + 5\)`&rdquo; would be written as
+&ldquo;`\(+\: 3\: 5\)`&rdquo;. Knowing that `\(+\)` is a binary symbol,
 it is easy to see how this expression could be written as
-“`\(+(3,5)\)`”. Further, the symbol `\(+\)` itself is
+&ldquo;`\(+(3,5)\)`&rdquo;. Further, the symbol `\(+\)` itself is
 arbitrary. History could have easily have left us using the symbol
 `\(f\)` for addition instead. In such an alternate universe, our
-expression would now be “`\(f(3, 5)\)`”, an all too
+expression would now be &ldquo;`\(f(3, 5)\)`&rdquo;, an all too
 familiar use of a function. We can transform all operators into
 functions, if we are comfortable deviating from our abitrary notation
 conventions. `\(7!\)` becomes `\(!(7)\)`; `\(\sqrt{7}\)` becomes
@@ -84,149 +84,89 @@ takes two points as inputs, in this case `\(A\)` and `\(B\)`. And when
 combined with its inputs, it produces a line as the output, represented as
 `\(\overleftrightarrow{AB}\)`. This may be a bit of stretch for
 students. So just call `\(\overleftrightarrow{AB}\)` an
-“entity” representing a particular line.
+&ldquo;entity&rdquo; representing a particular line.
 
-### Relations ###
+### Relations
 
 Relations are similar to operators, and therefore functions, but with a
-key difference. Relations, like `\(=\)`, don’t output anything.
+key difference. Relations, like `\(=\)`, donï¿½t output anything.
 In practice, relations are either true or false statements. For
 example, `\(5 = 5\)` is a true statement, and `\(3 > 5\)` is a false
-statement. “Equality”, “inequalities”,
-“parallel to” (`\(\parallel\)`), “not parallel
-to” (`\(\nparallel\)`), and “is an element of”
+statement. &ldquo;Equality&rdquo;, &ldquo;inequalities&rdquo;,
+&ldquo;parallel to&rdquo; (`\(\parallel\)`), &ldquo;not parallel
+to&rdquo; (`\(\nparallel\)`), and &ldquo;is an element of&rdquo;
 (`\(\in\)`) are all relations. In fact, they are all binary relations.
 
-The only other note about relations that I’d like to make is
-that false statements aren’t wrong. In the English language, the
-sentence “Unicorns were first discovered in this century”
+The only other note about relations that I&rsquo;d like to make is
+that false statements aren&rsquo;t wrong. In the English language, the
+sentence &ldquo;Unicorns were first discovered in this century&rdquo;
 is grammatically correct, but it is false. Similarly,
-“`\(3=5\)`” is grammaticaly correct in our mathematical
+&ldquo;`\(3=5\)`&rdquo; is grammaticaly correct in our mathematical
 language, but it is also false. If a mathematical statement is
-grammmatically correct, it’s called a well-formed formula,
+grammmatically correct, itï¿½s called a well-formed formula,
 abbreviated as <abbr title="well-formed formula">WFF</abbr>
-(pronounced “woof”).
+(pronounced ï¿½woofï¿½).
 
-## Table of Symbols ##
+## Table of Symbols
 
-### Algebra ###
+### Algebra
 
-#### Binary Relations ####
+#### Binary Relations
 
-<style>
-	table, td, th {
-		border: 1px solid black;
-	}
-	table {
-		border-collapse: collapse;
-	}
-	.centered {
-		text-align: center;
-	}
-	td, th {
-		padding: 0 0.5em;
-	}
-	thead {
-		border-bottom-style: double;
-	}
-</style>
-	
-<table>
-	<thead>
-	<tr><th>Symbol</th><th>Meaning</th></tr>
-	</thead>
-	<tbody>
-	<tr><td class="centered">\(\cdot =\cdot\)</td><td>Equal to</td></tr>
-	<tr><td class="centered">\(\cdot &lt;\cdot\)</td><td>Less than (and not equal
-	to)</td></tr>
-	<tr><td class="centered">\(\cdot \le\cdot\)</td><td>Less than or equal
-	to</td></tr>
-	<tr><td class="centered">\(\cdot \ge\cdot\)</td><td>Greater than or equal
-	to</td></tr>
-	<tr><td class="centered">\(\cdot &gt;\cdot\)</td><td>Greater than (and not
-	equal to)</td></tr>
-	<tr><td class="centered">\(\cdot\neq\cdot\)</td><td>Not equal to</td></tr>
-	<tr><td class="centered">\(\cdot\approx\cdot\)</td><td>Approximately equal
-	to</td></tr>
-	</tbody>
-</table>
+| Symbol | Meaning |
+| :---: | :--- |
+| \(\cdot =\cdot\) | Equal to |
+| \(\cdot &lt;\cdot\) | Less than (and not equal to) |
+| \(\cdot \le\cdot\) |  Less than or equal to |
+| \(\cdot \ge\cdot\) | Greater than or equal to |
+| \(\cdot &gt;\cdot\) | Greater than (and not equal to) |
+| \(\cdot\neq\cdot\) | Not equal to |
+| \(\cdot\approx\cdot\) | Approximately equal to |
 
-#### Unary Operators ####
+#### Unary Operators
 
-<table>
-	<thead>
-	<tr><th>Symbol</th><th>Meaning</th></tr>
-	</thead>
-	<tbody>
-	<tr><td class="centered">\(\pm\cdot\)</td><td>Plus or minus (positive or
-	negative)</td></tr>
-	<tr><td class="centered">\(\sqrt{\cdot}\)</td><td>Square root</td></tr>
-	<tr><td class="centered">\(\sqrt[3]{\cdot}\)</td><td>Cube root</td></tr>
-	<tr><td class="centered">\(\cdot !\)</td><td>Factorial</td></tr>
-	<tr><td class="centered">\(f(\cdot)\)</td><td>Function \(f\) of variable
-	\(\cdot\) (short: \(f\) of \(\cdot\))</td></tr>
-	<tr><td class="centered">\(\Delta\cdot\)</td><td>Change in variable
-	\(\cdot\)</td></tr>
-	<tr><td class="centered">\(\Sigma\cdot\)</td><td>Summation (adding up a bunch
-	of stuff)</td></tr>
-	</tbody>
-</table>
+| Symbol | Meaning |
+| :---: | :--- |
+| \(\pm\cdot\) | Plus or minus (positive or negative) |
+| \(\sqrt{\cdot}\) | Square root |
+| \(\sqrt[3]{\cdot}\) | Cube root |
+| \(\cdot !\) | Factorial |
+| \(f(\cdot)\) | Function \(f\) of variable \(\cdot\) (short: \(f\) of \(\cdot\)) |
+| \(\Delta\cdot\) | Change in variable \(\cdot\) |
+| \(\Sigma\cdot\) | Summation (adding up a bunch of stuff) |
 
-#### Constants ####
+#### Constants
 
-<table>
-	<thead>
-	<tr><th>Symbol</th><th>Meaning</th></tr>
-	</thead>
-	<tbody>
-	<tr><td class="centered">\(\infty\)`</td><td>Infinity</td></tr>
-	<tr><td class="centered">\(\pi\)</td><td>Pi, constant ratio between
-	circumference and diameter of any circle</td></tr>
-	<tr><td class="centered">\(\theta\)</td><td>Theta, usually represents measure
-	of an angle</td></tr>	
-	</tbody>
-</table>
+| Symbol | Meaning |
+| :---: | :--- |
+| \(\infty\) | Infinity |
+| \(\pi\) | Pi, constant ratio between circumference and diameter of any circle |
 
-### Geometry ###
+### Geometry
 
-#### Binary Relations ####
+#### Binary Relations
 
-<table>
-	<thead>
-	<tr><th>Symbol</th><th>Meaning</th></tr>
-	</thead>
-	<tbody>
-	<tr><td class="centered">\(\cdot\cong\cdot\)</td><td>Congruent to</td></tr>
-	<tr><td class="centered">\(\cdot\sim\cdot\)</td><td>Similar to</td></tr>
-	<tr><td class="centered">\(\cdot\perp\cdot\)</td><td>Perpendicular to</td></tr>
-	<tr><td class="centered">\(\cdot\parallel\cdot\)</td><td>Parallel to</td></tr>
-	<tr><td class="centered">\(\cdot\nparallel\cdot\)</td><td>Not parallel
-	to</td></tr>
-	</tbody>
-</table>
+| Symbol | Meaning |
+| :---: | :--- |
+| \(\cdot\cong\cdot\) | Congruent to |
+| \(\cdot\sim\cdot\) | Similar to |
+| \(\cdot\perp\cdot\) | Perpendicular to |
+| \(\cdot\parallel\cdot\) | Parallel to |
+| \(\cdot\nparallel\cdot\) | Not parallel to |
 
-#### Notations ####
+#### Notations
 
-<table>
-	<thead>
-	<tr><th>Symbol</th><th>Meaning</th></tr>
-	</thead>
-	<tbody>
-	<tr><td class="centered">\(\angle\)</td><td>Angle, measurement is not
-	important</td></tr>	
-	<tr><td class="centered">\(\measuredangle\)</td><td>Measured angle</td></tr>
-	<tr><td class="centered">\(\overleftrightarrow{AB}\)</td><td>Line through the
-	points \(A\) and \(B\)</td></tr>
-	<tr><td class="centered">\(\overrightarrow{AB}\)</td><td>Ray (half-line)
-	starting at point \(A\) through point \(B\)</td></tr>
-	<tr><td class="centered">\(\overline{AB}\)</td><td>Segment connecting points
-	\(A\) and \(B\)</td></tr>
-	</tbody>
-</table>
+| Symbol | Meaning |
+| :---: | :--- |
+| \(\angle\) | Angle, measurement is not important |
+| \(\measuredangle\) | Measured angle |
+| \(\overleftrightarrow{AB}\) | Line through the points \(A\) and \(B\) |
+| \(\overrightarrow{AB}\) | Ray (half-line) starting at point \(A\) through point \(B\) |
+| \(\overline{AB}\) | Segment connecting points \(A\) and \(B\) |
 
-### Sets ###
+### Sets
 
-#### Binary Relations ####
+#### Binary Relations
 
 <table>
 	<thead>
@@ -238,7 +178,7 @@ abbreviated as <abbr title="well-formed formula">WFF</abbr>
 	</tbody>
 </table>
 
-#### Binary Operators ####
+#### Binary Operators
 
 <table>
 	<thead>
@@ -251,7 +191,7 @@ abbreviated as <abbr title="well-formed formula">WFF</abbr>
 	</tbody>
 </table>
 
-#### Notations ####
+#### Notations
 
 <table>
 	<thead>
@@ -263,7 +203,7 @@ abbreviated as <abbr title="well-formed formula">WFF</abbr>
 	</tbody>
 </table>
 
-#### Constants ####
+#### Constants
 
 <table>
 	<thead>
@@ -286,7 +226,7 @@ abbreviated as <abbr title="well-formed formula">WFF</abbr>
 	   </tbody>
 </table>
 
-## Feedback ##
+## Feedback
 
 If you have any comments, questions, or other mathematical symbols that
 you'd like to have analyzed, just put it in a comment down below.

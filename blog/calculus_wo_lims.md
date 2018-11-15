@@ -1,11 +1,11 @@
-# Derivatives Without Limits #
+# Derivatives Without Limits
 
 In applied calculus courses, it can be the case that limits are only presented
 in order to define derivatives. (Ignoring the limits in Riemann sums which are
 different kinds of limits, because they involve partitions over the reals rather
-than just reals.) 
+than just reals.)
 
-## Traditional Limit Definitions ##
+## Traditional Limit Definitions
 
 For context, I will present two equivalent limit definitions of the derivative.
 
@@ -16,12 +16,11 @@ For context, I will present two equivalent limit definitions of the derivative.
 > then the derivative of `\(f\)` at `\(x = \color{blue}{a}\)` is said to fail to
 > exist.
 
-## Continuity Definition ##
+## Continuity Definition
 
 > The derivative of a function `\(f\)` at the point `\(x = \color{blue}{a}\)` is
 > the value, denoted `\(f'(\color{blue}{a})\)`, which makes the following
-> function continuous at `\(x = \color{blue}{a}\)`
-> `\[\phi(x)\vcentcolon=\left\{\begin{array}{cc}\frac{f(x) - f(\color{blue}{a})}{x - \color{blue}{a}} & x\neq\color{blue}{a} \\ f'(\color{blue}{a}) & x = \color{blue}{a}\right.\text{.}\]`
+> function continuous at `\(x = \color{blue}{a}\)` > `\[\phi(x)\vcentcolon=\left\{\begin{array}{cc}\frac{f(x) - f(\color{blue}{a})}{x - \color{blue}{a}} & x\neq\color{blue}{a} \\ f'(\color{blue}{a}) & x = \color{blue}{a}\right.\text{.}\]`
 
 Like with much of math, there are many other ways to phrase this definition. I
 chose this way because it may be the one that students understand the more
@@ -30,7 +29,7 @@ continuity does not need to involve limits. Continuity can be defined with an
 `\(\epsilon\text{-}\delta\)` definition, one which looks similar to the
 definition of limits.
 
-# Calculus Without Limits #
+# Calculus Without Limits
 
 I want to propose the idea that a calculus curriculum can omit limits, at least
 an applied calculus course like business calculus. The content of this post
@@ -38,34 +37,32 @@ alone would not be sufficient to drop limits in a calculus class that needed to
 discuss `\(\infty\)`. These topics include end-behavior, series, and improper
 integrals.
 
-## Why Drop Limits ##
+## Why Drop Limits
 
 We waive our hands at the technical definition of limits in order to
-present a �technically� complete definition of derivatives. Instead,
+present a &ldquo;technically&rdquo; complete definition of derivatives. Instead,
 we could just present derivatives informally without needing to bring up limits.
 Often in applied calculus classes, the sole purpose of limits is to introduce
 derivatives.
 
 And if you discuss `\(\epsilon\text{-}\delta\)` definition of limits, then I
-claim that your student�s don�t actually understand the definition,
+claim that your student&rsquo;s don&rsquo;t actually understand the definition,
 but have just memorized how to prove simplistic `\(\epsilon\text{-}\delta\)`
 examples.
 
-## Derivatives Without Limits ##
+## Derivatives Without Limits
 
+### Integrals Without Limits
 
+### Historial Precedence
 
-### Integrals Without Limits ###
+## Other Alternatives to Limits
 
-### Historial Precedence ###
+### Continuity
 
-## Other Alternatives to Limits ##
+### Infinitesimals
 
-### Continuity ###
-
-### Infinitesimals ###
-
-## Fixed, Unknown Value ##
+## Fixed, Unknown Value
 
 This is the initial idea of a variable that we present to students.
 Here, a variable has a particular, but unknown value. We can learn the
@@ -84,8 +81,8 @@ situations. For equations with more than one solution, like
 conclude that the correct value is either `\(2\)` or `\(-2\)`.
 Similarly, inequalities will not typically yield the one true value but
 are only able to restrict the possibilities of what the true value can
-be. For example, the solution to `\(x^{2}\leq 4\)` is **exactly** one
-of the two values `\(-2\)` and `\(2\)`, rather than being **any**
+be. For example, the solution to `\(x^{2}\leq 4\)` is _exactly_ one
+of the two values `\(-2\)` and `\(2\)`, rather than being _any_
 value.
 
 When dealing with two or more variables, the fixed but unknown value
@@ -95,9 +92,8 @@ inconceivable. If the correct values are `\((x, y)= (-3, 0)\)`, then
 there cannot be another other values of `\(x\)` and `\(y\)`. Instead of
 a line on the coordinate plane, the solution here is a single point.
 Granted, if we know nothing about the variables beyond the equation, the
-set of possible solutions is `\(\left\{ (t, 2 t + 3)\mid
-t\in\mathbb{R}\right\}\)`. But according to this view, only one point,
-among the possible solutions, is **the** correct solution.
+set of possible solutions is `\(\left\{ (t, 2 t + 3)\mid t\in\mathbb{R}\right\}\)`. But according to this view, only one point,
+among the possible solutions, is _the_ correct solution.
 
 In summary, we start teaching algebra by introducing it to students as
 “solving for the unknown”. By doing so, we instill in them
@@ -108,7 +104,7 @@ We quickly want to move to the idea of variables as jointly varying
 quantities when tackling relations with more than one variable,
 and in particular functions.
 
-## Varying Value ##
+## Varying Value
 
 Anyone familiar with algebra is probably most familiar with the idea
 that the value of a variable may vary. A fixed variable is
@@ -122,7 +118,7 @@ must be the case that either `\(x=2\)` or `\(x=-2\)`.”
 The richness of variables as varying quantities is seen with two or more
 variables. Graphs on the coordinate plane demand that the input variable
 be permitted to take on many different values, one for each point on the
-graph.  Despite students’ struggles, combining graphical and
+graph. Despite students’ struggles, combining graphical and
 algebraic perspectives reveals a treasure of insight. Even in college
 algebra, we can ask deep questions like “as `\(x\)` increases, does
 `\(y\)` increase, decrease, or remain constant?” or “as
@@ -133,7 +129,7 @@ Despite being a familiar and fascinating perspective, variables as
 changing quantities is rather sophisticated and is probably not the way
 to introduce students to elementary algebra.
 
-## Fixed, Arbitrary Value ##
+## Fixed, Arbitrary Value
 
 One might instead call these kinds of variables parameters. In the
 point-slope form of a line
@@ -146,14 +142,14 @@ independent of the other variables. Like the fixed, unknown variables,
 parameters are seen as placeholders, which are to be replaced by their
 value in specific contexts.
 
-## Indeterminate Value ##
+## Indeterminate Value
 
 Indeterminate variables appear in more theoretical mathematics, when
 variables don’t have to represent for anything. For most people,
 equality between polynomials is where this idea can be seen. We can say
 that the two polynomials `\(p(x) = 2 + 5 x\)` and `\(q(x) = 5 + 2 x\)`
 are equal when `\(x = 1\)`. But we also say that `\(p(x)\)` and
-`\(q(x)\)` are **different** polynomials. In one sense, we have that
+`\(q(x)\)` are _different_ polynomials. In one sense, we have that
 `\(p(x)=q(x)\)` if and only if `\(x = 1\)`; and in the other sense, we
 have that `\(p(x)\neq q(x)\)`. The difference lies in the role of
 `\(x\)` (and [the role of ‘=’](http://cousinomath.website/)). If the
@@ -177,7 +173,7 @@ is sufficient to show that this meaning gives us a mathematical way of
 saying that two functions can intersect, and yet still be different
 functions, such expressive power is justification enough for many.
 
-## Conclusion ##
+## Conclusion
 
 Can you think of another role or that there should be fewer roles?
 Please let me know what you think in the comments below.
