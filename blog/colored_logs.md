@@ -25,7 +25,7 @@ symbols.
 \end{align*}\]`
 
 And I continue the coloration with examples like evaluating `\(\log_{3} 81\)`.
-As we&rsquo;re trying to figure out unknown value, we write
+As we’re trying to figure out unknown value, we write
 `\(\log_{3} 81 = ?\)`.
 
 `\[\begin{align*}
@@ -34,30 +34,29 @@ As we&rsquo;re trying to figure out unknown value, we write
   {\color{red}3}^{\color{green}4} & = {\color{blue}81}
   \end{align*}\]`
 
-This means that `\(\log_{3}(81) = 4\)`. Here is where I reinforce the idea
-that the expression `\(\log_{3}(81)\)` asks the question &ldquo;3 to what
-power is 81&rdquo; just like `\(81÷3\)` asks &ldquo;3 times what is 81&rdquo;
-and `\(\sqrt[3]{81}\)` asks &ldquo;what number to the 3rd power is 81&rdquo;.
+This means that `\(\log_{3}(81) = 4\)`. Here is where I reinforce the idea that
+the expression `\(\log_{3}(81)\)` asks the question “3 to what power is 81” just
+like `\(81÷3\)` asks “3 times what is 81” and `\(\sqrt[3]{81}\)` asks “what
+number to the 3rd power is 81”.
 
 ### Addressing Criticism ###
 
-One obvious critique of this technique is that it emphasizes symbol
-manipulation over deeper understanding. I agree. But deeper understanding often
-comes after superficial symbol shuffling. Unfortunately,  I haven&rdquo;t had
-time in my college-level courses, with about 48 contact hours, to delve into
-helping my students develop a mastery of logarithms. The reality of my
-classroom is aiming for student mastery is near impossible, and a more
-realistic goal for my students is symbolic understanding with a little deeper
-mastery.
+One obvious critique of this technique is that it emphasizes symbol manipulation
+over deeper understanding. I agree. But deeper understanding often comes after
+superficial symbol shuffling. Unfortunately,  I haven”t had time in my
+college-level courses, with about 48 contact hours, to delve into helping my
+students develop a mastery of logarithms. The reality of my classroom is aiming
+for student mastery is near impossible, and a more realistic goal for my
+students is symbolic understanding with a little deeper mastery.
 
 One of the ways that I aim for deeper mastery is by reinforcing that the result
 of a logarithm is a question: the expression `\(\log_{3} 81\)` is asking the
-question &ldquo;3 to what power gives the answer 81&rdquo;, and the value of
-this expression is the answer to its question. Another way I stress mastery is
-solving exponential and logarithmic equations by converting the two, and
-introduce exponentiation and taking logarithms as an ancillary method. Also, I
-write out log properties along side their equivalent exponential properties and
-emphasize their similarities.
+question “3 to what power gives the answer 81”, and the value of this expression
+is the answer to its question. Another way I stress mastery is solving
+exponential and logarithmic equations by converting the two, and introduce
+exponentiation and taking logarithms as an ancillary method. Also, I write out
+log properties along side their equivalent exponential properties and emphasize
+their similarities.
 
 ### Homologous Properties ###
 

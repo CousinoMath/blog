@@ -1,4 +1,4 @@
-# Better Graph Transformations #
+# Better Graph Transformations
 
 I just wanted to offer a quick note, and extensive justification, for another
 way of explaining horizontal graph transformations. The transformation from
@@ -20,7 +20,7 @@ transformations. I suspect, with small anecdotal support, that this is easier
 for students to learn. It keeps graph transformations within a simple theme and
 avoids awkward rewrites of formulas.
 
-## Correctness ##
+## Correctness
 
 To see the correctness of this interpretation, we will examine how the
 transformations affect an arbitrary point on the graph, say `\((x,y)\)`. First,
@@ -32,7 +32,7 @@ would have us start with a shift, `\((x+4,y)\)`, followed by the shrink,
 move our original point to the same destination. We can then conclude that both
 transformations are equivalent.
 
-## Extrapolating ##
+## Extrapolating
 
 These transformations are effectively composing the original function
 `\(y = f(x)\)` with some simple functions. There are functions for
@@ -64,7 +64,7 @@ for any values of `\(a\)` and `\(h\)`. This provides us with another
 justification for this alternate explanations of the order of horizontal
 transforms.
 
-## Final Thoughts ##
+## Final Thoughts
 
 I realize that this is a simple observation. But since, the pervasiveness of
 the `\(y = f(2 (x - 2))\)` method and the simplicity of reversing the order of

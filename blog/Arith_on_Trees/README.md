@@ -5,16 +5,24 @@
 There are other ways to write down math. The style which we are used to is known
 as [infix notation][1]. Two better known alternatives are
 [Reverse Polish notation or postfix][3], and [Polish notation or prefix][2].
-The main difference is that infix notation places operators, like +, &minus;,
-&times;, &divide;, are placed between the arguments, and parentheses are used
+The main difference is that infix notation places operators, like +, −,
+×, ÷, are placed between the arguments, and parentheses are used
 for grouping. Postfix notation
 (<acronym title="Reverse Polish Notation">RPN</acronym>) puts the operators
 after the arguments, and prefix
 (<acronym title="Polish Notation">PN</acronym>) puts the operators before the
 arguments. One interesting difference is that these other two notations
-don&rsquo;t require the use of any parentheses. Below is a table of a few
+don’t require the use of any parentheses. Below is a table of a few
 examples written in all three notations.
 
+| Infix | Postfix | Prefix |
+| --- | --- | --- |
+| `1 + 1` | `1 1 +` | `+ 1 1` |
+| `1 + 2 × 3` | `1 2 3 × +` | `+ × 2 3 1` |
+| `(1 + 2) × 3` | `1 2 + 3 ×` | `× + 1 2 3` |
+| `√(3^2 + 4^2)` | `3 2 ^ 4 2 ^ + √` | `√ + ^ 3 2 ^ 4 2` |
+
+<!--
 <table>
 <thead>
 <tr>
@@ -46,6 +54,7 @@ examples written in all three notations.
 </tr>
 </tbody>
 </table>
+-->
 
 There are programming advantages of using these alternate notations,
 most deal with entering in expressions and parsing expressions.
@@ -79,7 +88,7 @@ which operations happen before the function is applied and which happen
 after. All these benefits amount deeper understanding of order of
 operations for not just numeric expression, but algebraic as well. For
 those that would like a new phrase, perhaps we should call this deeper
-concept the &ldquo;order of evaluation&rdquo;.
+concept the “order of evaluation”.
 
 ## Tree Notation for Arithmetic
 
@@ -91,32 +100,32 @@ postfix easier to understand, and vesa-versa. Below is an example of
 using the tree notation to represent `1+1`.
 
 Next is an example of the computations to show that
-`3 / 4 &minus; 2 / 3 = 1 / 12`.
+`3 / 4 − 2 / 3 = 1 / 12`.
 
 Another learning example is the quadratic formula.
 
 And the following are the steps in the computation of the quadratic
-formula for the quadratic `\(x^{2} &minus; 4 x + 3\)`.
+formula for the quadratic `\(x^{2} − 4 x + 3\)`.
 
-One may notice the use of boxes for operators like &minus; and &divide;
-versus the use of ovals for + and &times;. This is due to the fact that
+One may notice the use of boxes for operators like − and ÷
+versus the use of ovals for + and ×. This is due to the fact that
 
-- and &divide; are noncommutative binary operators, whereas + and
-  &times; are commutative. So for &minus; and &divide;, it must be made
+- &minus; and ÷ are noncommutative binary operators, whereas + and
+  × are commutative. So for − and ÷, it must be made
   explicit which is the first argument and which is the second. But for
 
-- and &times;, it does not matter which argument is first and which is
+- &plus; and ×, it does not matter which argument is first and which is
   second. Also, note in the quadratic formula, the part of the tree
-  corresponding to `\(4 a c\)` is just an oval for &times; with three
+  corresponding to `\(4 a c\)` is just an oval for × with three
   leaves coming off it, one leave for each 4, `\(a\)`, and `\(c\)`. This
-  might seem odd because &times; is not defined to take three arguments
+  might seem odd because × is not defined to take three arguments
   but only two. The associative property is what allows us to multiply
   together any number of arguments.
 
 Already, we have used the properties of associativity and commutativity
 to explain the features of this tree notation. The convenience of these
-two properties in our notation push us to use + instead of &minus; and
-&times; instead of &divide;.
+two properties in our notation push us to use + instead of − and
+× instead of ÷.
 
 [1]: https://en.wikipedia.org/wiki/Infix_notation "Infix notation"
 [2]: https://en.wikipedia.org/wiki/Polish_notation "Polish notation"

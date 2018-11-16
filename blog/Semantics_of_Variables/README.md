@@ -28,8 +28,8 @@ situations. For equations with more than one solution, like
 conclude that the correct value is either `\(2\)` or `\(-2\)`.
 Similarly, inequalities will not typically yield the one true value but
 are only able to restrict the possibilities of what the true value can
-be. For example, the solution to `\(x^{2}\leq 4\)` is **exactly** one
-of the two values `\(-2\)` and `\(2\)`, rather than being **any**
+be. For example, the solution to `\(x^{2}\leq 4\)` is _exactly_ one
+of the two values `\(-2\)` and `\(2\)`, rather than being _any_
 value.
 
 When dealing with two or more variables, the fixed but unknown value
@@ -40,7 +40,7 @@ there cannot be another other values of `\(x\)` and `\(y\)`. Instead of
 a line on the coordinate plane, the solution here is a single point.
 Granted, if we know nothing about the variables beyond the equation, the
 set of possible solutions is `\(\left\{ (t, 2 t + 3)\mid t\in\mathbb{R}\right\}\)`. But according to this view, only one point,
-among the possible solutions, is **the** correct solution.
+among the possible solutions, is _the_ correct solution.
 
 In summary, we start teaching algebra by introducing it to students as
 “solving for the unknown”. By doing so, we instill in them
@@ -96,7 +96,7 @@ variables don’t have to represent for anything. For most people,
 equality between polynomials is where this idea can be seen. We can say
 that the two polynomials `\(p(x) = 2 + 5 x\)` and `\(q(x) = 5 + 2 x\)`
 are equal when `\(x = 1\)`. But we also say that `\(p(x)\)` and
-`\(q(x)\)` are **different** polynomials. In one sense, we have that
+`\(q(x)\)` are _different_ polynomials. In one sense, we have that
 `\(p(x)=q(x)\)` if and only if `\(x = 1\)`; and in the other sense, we
 have that `\(p(x)\neq q(x)\)`. The difference lies in the role of
 `\(x\)` (and [the role of ‘=’](http://cousinomath.website/)). If the

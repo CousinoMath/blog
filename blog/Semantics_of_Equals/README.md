@@ -2,12 +2,12 @@
 
 ## Motivation
 
-The simple question, “what does ‘=’ mean”, has
-a complex answer. In the two statements “`\(1 + 1 = 2\)`”
-and “`\(3 x + 7 = 28\)`”, consider what ‘=’
+The simple question, â€œwhat does â€˜=â€™ meanâ€, has
+a complex answer. In the two statements â€œ`\(1 + 1 = 2\)`â€
+and â€œ`\(3 x + 7 = 28\)`â€, consider what â€˜=â€™
 means to a student and what they are prompted to do with each
-statement. Granted, in both statements, ‘=’ means typical
-mathematical equality—the quantity on the left side has the same
+statement. Granted, in both statements, â€˜=â€™ means typical
+mathematical equalityâ€”the quantity on the left side has the same
 value as the quantity on the right side. However, a student presented
 with these two statements, and no other context, might say that nothing
 needs to be done to the first statement, and the second one
@@ -17,14 +17,14 @@ to employ algebra.
 
 ## Semantics
 
-So far, I have identified four distinct uses for ‘=’.
+So far, I have identified four distinct uses for â€˜=â€™.
 
 ### Transition Marker
 
-This role of ‘=’ is that of a transition from an
+This role of â€˜=â€™ is that of a transition from an
 arithmetic computation to its result, or at least the next step. For
-example, “`\(1+1=2\)`” could easily be written as
-“`\(1+1\rightarrow 2\)`”. My guess is that at first glance,
+example, â€œ`\(1+1=2\)`â€ could easily be written as
+â€œ`\(1+1\rightarrow 2\)`â€. My guess is that at first glance,
 most students would say these two statements mean the same thing. If
 asked further questions, students may note that the first means both
 left and right sides are equal, but the second conveys that the left
@@ -32,84 +32,84 @@ side becomes the right.
 
 ### Equation
 
-In algebra and pre-algebra, students encounter ‘=’ in a
+In algebra and pre-algebra, students encounter â€˜=â€™ in a
 context where naive arithemtic computation fails. This context has
-‘=’ near phrases like “solve for” and
-“find the value of”. One such example is
-“Solve for `\(x\)` in `\(x^{2} - 3 x + 2 = 0\)`”. Once
+â€˜=â€™ near phrases like â€œsolve forâ€ and
+â€œfind the value ofâ€. One such example is
+â€œSolve for `\(x\)` in `\(x^{2} - 3 x + 2 = 0\)`â€. Once
 again, students are prompted to perform another set of computations,
 which we will term algebraic computations. These algebraic computations
 finish once we reach a statement of the form
-“`\(x=\cdot\)`”. This last statement in our computation is
+â€œ`\(x=\cdot\)`â€. This last statement in our computation is
 the answer.
 
 The trouble with the equation and transition roles is that they are
 easy to conflate. Doing arithmetic computations under a transitional
-‘=’, the result is a number. Similarly, students can see
-the result of algebraic computations under an equation ‘=’
+â€˜=â€™, the result is a number. Similarly, students can see
+the result of algebraic computations under an equation â€˜=â€™
 as a number too. The extra `\(x=\cdot\)` is just dropped, and the
 number is the answer, like with the transitional case. So students can
-see both types of ‘=’ as prompting computations to get a
+see both types of â€˜=â€™ as prompting computations to get a
 numeric answer. The problem with this view point is that with an
-equational ‘=’, the computational steps involve logical
-implications. For example, consider “`\(3 x + 7 = 28\)`”.
+equational â€˜=â€™, the computational steps involve logical
+implications. For example, consider â€œ`\(3 x + 7 = 28\)`â€.
 The translation into English of the statement is the following,
-“Is there a value for `\(x\)` which makes `\(3 x + 7\)` equal to
-`\(28\)` in value?”. After subtracting `\(7\)` from both sides,
-we get the mathematical statement “`\(3 x = 21\)`”; this
-entire step translates to “There is a value for `\(x\)` which
+â€œIs there a value for `\(x\)` which makes `\(3 x + 7\)` equal to
+`\(28\)` in value?â€. After subtracting `\(7\)` from both sides,
+we get the mathematical statement â€œ`\(3 x = 21\)`â€; this
+entire step translates to â€œThere is a value for `\(x\)` which
 makes `\(3 x + 7 = 28\)` if and only if there is a value for `\(x\)`
-will make `\(3 x = 21\)`”. Finally, divide both sides by `\(3\)`
-to get “`\(x = 7\)`”, “The value for `\(x\)`
+will make `\(3 x = 21\)`â€. Finally, divide both sides by `\(3\)`
+to get â€œ`\(x = 7\)`â€, â€œThe value for `\(x\)`
 satisfies the equation `\(3 x + 7 = 28\)` if and only if the value for
-`\(x\)` is `\(7\)`”. Students conflating transition and equation
-roles of ‘=’ means that students are losing out on
+`\(x\)` is `\(7\)`â€. Students conflating transition and equation
+roles of â€˜=â€™ means that students are losing out on
 algebraic reasoning.
 
 ### Definition Marker
 
-When students see functions, they see ‘=’ used in
+When students see functions, they see â€˜=â€™ used in
 definitions, such as the statement
-“`\(f(x)=x^{3} - 3 x + 1\)`”. The student should not be
+â€œ`\(f(x)=x^{3} - 3 x + 1\)`â€. The student should not be
 prompted to perform any computation, as with the transition marker and
 equation roles. Rather, the correct prompt is to recognize that
 wherever the student sees `\(f(x)\)` they should mentally substitute in
 `\(x^{3} - 3 x + 1\)`.
 
 In my classes, I will write
-‘`\(\unicode[STIXGeneral]{x2254}\)`’ instead of
-‘=’ in definitions. So rather than write
-“`\(f(x) = x^{3} - 3 x + 1\)`”, I would write
-“`\(f(x)\unicode[STIXGeneral]{x2254} x^{3} - 3 x + 1\)`”. I
+â€œ`\(\unicode[STIXGeneral]{x2254}\)`â€ instead of
+â€˜=â€™ in definitions. So rather than write
+â€œ`\(f(x) = x^{3} - 3 x + 1\)`â€, I would write
+â€œ`\(f(x)\unicode[STIXGeneral]{x2254} x^{3} - 3 x + 1\)`â€. I
 do this in order to help students to distinguish this role as a
 definition marker by making the distinction syntactic as well as a
-contextual. This ambiguity of ‘=’ can quickly be seen with
-the statement “`\(f(x)=0\)`”. This could either be a
+contextual. This ambiguity of â€˜=â€™ can quickly be seen with
+the statement â€œ`\(f(x)=0\)`â€. This could either be a
 definition, defining the function `\(f(x)\)` to be the constant value
 `\(0\)`, or it could be equating a function `\(f(x)\)` to the value
 `\(0\)`.
 
 ### Identity
 
-Technically, the statement “`\(1+1=2\)`” is an identity.
+Technically, the statement â€œ`\(1+1=2\)`â€ is an identity.
 But I suspect most students do not recognize this role until they reach
-trigonometry and see “`\(\cos^{2} x + \sin^{2} x = 1\)`”.
-Unlike its other roles, this role for ‘=’ is bidirectional.
+trigonometry and see â€œ`\(\cos^{2} x + \sin^{2} x = 1\)`â€.
+Unlike its other roles, this role for â€˜=â€™ is bidirectional.
 In other words, an identity can be read left to right or right to left.
 Like with the definition marker role, an identity should not prompt any
 action from the student. Instead, an identity is to be memorized and
 used for substitutions.
 
-In my classes, I write ‘`\(\equiv\)`’ in place of
-‘=’ in identities. So I would write
-“`\(\cos^{2}(x) + \sin^{2}(x)\equiv 1\)`” rather than
-“`\(\cos^{2}(x) + \sin^{2}(x) = 1\)`”.
+In my classes, I write â€œ`\(\equiv\)`â€ in place of
+â€˜=â€™ in identities. So I would write
+â€œ`\(\cos^{2}(x) + \sin^{2}(x)\equiv 1\)`â€ rather than
+â€œ`\(\cos^{2}(x) + \sin^{2}(x) = 1\)`â€.
 
 ## Lesson for Teachers
 
 For those of you who are instructors, here is my advice to you about
-using ‘=’: make these different roles clear to your
-students. Whether you stick with the symbol ‘=’ or adopt
+using â€˜=â€™: make these different roles clear to your
+students. Whether you stick with the symbol â€˜=â€™ or adopt
 your own symbol, keep reminding your students about the meaning and
 role of the particular equality symbol, and remark on how this role is
 similar and how this role is different from the others used in class.
@@ -122,10 +122,10 @@ not the same unless computations are performed. This type of equality
 is useful in logic and related areas, when the mathematical objects
 being studied are mathematical formulas themselves. But once a student
 reaches this level, I assume that they can deal with the ambiguous
-nature of ‘=’. So I felt safe leaving it out of this
+nature of â€˜=â€™. So I felt safe leaving it out of this
 taxonomy.
 
-If I missed a role or have an unnecessary role for ‘=’, let
+If I missed a role or have an unnecessary role for â€˜=â€™, let
 me know in the comments. If you use other symbols as I do with
-‘`\(\unicode{x2254}\)`’ and ‘`\(\equiv\)`’, put
+â€˜`\(\unicode{x2254}\)`ï¿½ and â€˜`\(\equiv\)`ï¿½, put
 them down in the comments as well.

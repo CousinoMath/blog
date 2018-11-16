@@ -31,15 +31,15 @@ lines which together sit vertically on the left and right sides,
 Other standard, but less common, positioning schemes are
 [Polish notation (PN)][1] and [reverse Polish notation (APN)][2].
 These allow one to reposition symbols like \(+\), so that the
-expression “\(3 + 4\)” becomes “\(+\, 3\, 4\)”
-in PN and “\(3\, 4\, +\)” in RPN.
+expression â€œ\(3 + 4\)â€ becomes â€œ\(+\, 3\, 4\)â€
+in PN and â€œ\(3\, 4\, +\)â€ in RPN.
 
 ### Alternative Positioning
 
 Of course these are just conventions. They can be changed at a whim.
 But trying to communicate \(4!\) by writing \(\overset{!}{4}\) is about
-as effective as trying to use the word “treat” instead of
-the word “cord”. In either case, people will look at you
+as effective as trying to use the word â€œregaleâ€ instead of
+the word â€œtreatâ€. In either case, people will look at you
 funny.
 
 That is the case unless you're an idosyncratic mathematician writing a

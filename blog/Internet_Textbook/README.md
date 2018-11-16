@@ -2,10 +2,10 @@
 
 ## Preamble
 
-For a while now, I had this idea of a ìweb nativeî
-textbook. Itís still just an idea, and far from being realized.
+For a while now, I had this idea of a ‚Äúweb native‚Äù
+textbook. It‚Äôs still just an idea, and far from being realized.
 But I think that it is time to share the idea with the public.
-Iím quite certain that the technology exists today to realize
+I‚Äôm quite certain that the technology exists today to realize
 this idea. However, the work yet to be done so is significant, and will
 take at least the better part of a year to complete.
 
@@ -13,23 +13,23 @@ take at least the better part of a year to complete.
 
 Perhaps an easy way to describe a web native textbook is to explain
 what it is not. A web native textbook is not a PDF posted on the
-internet. Itís much more than that. An online, PDF can have both
-internal linksólinks to other parts of the documentóand
-external linksólinks to resources outside the document.
+internet. It‚Äôs much more than that. An online, PDF can have both
+internal links‚Äîlinks to other parts of the document‚Äîand
+external links‚Äîlinks to resources outside the document.
 Furthermore, a PDF textbook can easily have a table of
 contents, index, glossary, and other characteristics of dead tree
 textbooks. Also, search engines like Google can add such a
 PDF to their index, and thus bring it to the public.
 
 What a web native textbook can do, that a PDF cannot, is
-have complex dynamic behavior and complex memoryóa state to use
+have complex dynamic behavior and complex memory‚Äîa state to use
 the computer science nomenclature. My idea of what
 consitutes a web textbook elaborates on the features that memory and
 dynamic behavior can provide. Note having memory
 requires some sort of login to the textbook. Login could be
 done through a learning management system or passed off to a third party
 like Google or Facebook. Therefore, our textbook memory would not need
-to add another username and password to each studentsí library of
+to add another username and password to each students‚Äô library of
 logins. The dynamic behavior of the textbook need not require any
 memory and does not require any login. But whenever a dynamic feature
 of demands the use of memory, such a feature will also demand that users
@@ -42,15 +42,15 @@ log into the textbook.
 Sometimes, students need more examples than the textbook provides. A web
 native textbook can have as many examples as the student wants. At the
 bottom of each randomly generated example, we can simply add a button
-labeled ìGenerate Another Example&rdquo which performs this very
+labeled ‚ÄúGenerate Another Example‚Äù which performs this very
 task. For those who worry that randomness will not be
 appropriate for every kind of example imagine the following example
-of factoring a quadratic polynomial. Most quadratics donít
+of factoring a quadratic polynomial. Most quadratics don‚Äôt
 factor nicely. So a truly random quadratic would serve as a poor example
 for factoring. However, we could randomly generate integer or rational
 roots for the example quadratic as well as generate its leading
 coefficient. From these parameters, we can calculate the coefficients of
-the quadratic in itís general form, and present this form of the
+the quadratic in it‚Äôs general form, and present this form of the
 quadratic for factoring in such an example.
 
 We can constrain the random examples to have prescribed characteristics,
@@ -74,9 +74,9 @@ from fewer resources.
 
 This is the first feature that necessitates memory, and therefore user
 login. It is also one of the most complicated features. If
-youíve every been in Boy Scouts, Girl Scouts, or Venture Scouts,
+youÔøΩve every been in Boy Scouts, Girl Scouts, or Venture Scouts,
 then this idea of merit badges will be familiar. This idea can also be
-fairly described as ìgamifyingî education, at least to a
+fairly described as ‚Äúgamifying‚Äù education, at least to a
 limited extent.
 
 Imagine a course where each student
@@ -84,15 +84,15 @@ could explore the aspects of the particular discipline which interest
 them, while having students master the core ideas and
 techniques. A web textbook could support such a class. Differential
 equations is a subject quite naturally suited to this feature, and so
-will be the subject of the motivating example. Letís say that
+will be the subject of the motivating example. Let‚Äôs say that
 instead of trying to pass differential equations,
 students are trying to increase their rank in differential equations,
-from ìNot knowingî to ìKnowing differential
-equationsî. In this course, there are some required
+from ‚ÄúNot knowing‚Äù to ‚ÄúKnowing differential
+equations‚Äù. In this course, there are some required
 tasks that every student who wants to rank up in differential equations
 must complete. Upon successfully completing a task, award the student
 with a merit badge. Further, there are optional tasks, of which each
-student must complete no fewer than some fixed number. Letís say
+student must complete no fewer than some fixed number. Let‚Äôs say
 that completing an optional tasks earns the corresponding optional merit
 badge, and that completing a required task earns the associated required
 merit badge. While all students must earn each required merit badge, it
@@ -115,8 +115,8 @@ algorithms for numerical approximating solutions, solving by the
 method variation of parameters, Van der Pol oscillators, parametric
 oscillators, predator-prey systems, etc.
 
-This idea is far too hazy and too radical for me. A ìchoose
-your own adventureî style course is so foreign to the
+This idea is far too hazy and too radical for me. A ‚Äúchoose
+your own adventure‚Äù style course is so foreign to the
 introductory college math courses that I teach. For instance, I am
 still a bit unclear as to what a student has to do to earn a merit
 badge. For the required merit badges, it might be doing well on an
@@ -129,24 +129,24 @@ in their own learning.
 
 ### Student Annotations and Modifications
 
-Remembering each usersí interactions with the textbook, allows us
+Remembering each users‚Äô interactions with the textbook, allows us
 to save modifications and annotations that each user makes to the
 textbook. These two topics, annotation and modification to the
 textbook, are different enough to require separate descriptions. When
 thinking of annotations to web native textbooks, think about margin
 notes and highlighting in dead tree textbooks. And within the web
-textbook, each studentís annotations can be stored and displayed
+textbook, each student‚Äôs annotations can be stored and displayed
 only to the individual student. But instructors could create
 annotations which are displayed on all their students textbooks. Or
 instructors could highlight a particularly good annotation by a student
-by publishing them to everyoneís textbook.
+by publishing them to everyone‚Äôs textbook.
 
 With modifications, students could rewrite their own textbook. The
 ability to revert their changes back to the original would be
 necessary. But in principle, students could delete, add, and rewrite
 content to suit their own pedagogical needs.
 Again, an instructor could push modifications to all of their
-studentsí textbooks. Otherwise, one studentís modifications
+students‚Äô textbooks. Otherwise, one student‚Äôs modifications
 will remain local to their copy of the textbook. Needless to say,
 modifications are much harder to implement than annotations. But one
 advantage is that students can write their own textbooks, which is
@@ -168,8 +168,8 @@ which paragraphs get the most annotations, which examples get randomly
 regenerated the most, which interactive elements get used the most,
 etc. In other words, it helps you determine which parts of your
 textbook are working best and which parts need to be revised. Also, it
-will be important to note what tracking wonít be able to do.
-Tracking wonít be able to tell at which parts of the textbook
+will be important to note what tracking won‚Äôt be able to do.
+Tracking won‚Äôt be able to tell at which parts of the textbook
 your students are looking. It will not be able to accurately tell you
 how much time your students are spending reading/interacting with the
 textbook. This is because a student could be looking at another tab in
@@ -184,7 +184,7 @@ each individual student.
 
 ### Offline Too
 
-Thanks to modern web development, an online textbook doesnít have
+Thanks to modern web development, an online textbook doesnÔøΩt have
 to be dependent on a constant internet connection. The whole textbook
 can be a web app, a website that can be downloaded as an app to
 desktops, laptops, tablets, phones, and any other capable device. This
