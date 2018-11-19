@@ -51,3 +51,5 @@
    - Pythagorean mysticism
    - Platonic ideals
 1. Rise of the Infinitesimal
+1. Ada Perplex: Was Lord Byron's Daughter the First Coder?
+1. Alan Turing: In Life, Logic, and Death
