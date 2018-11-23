@@ -58,3 +58,4 @@
 1. String Theory Wars: Is Beauty Truth?
 1. Einstein, Spooky Action, and the Reality of Space
 1. How Will the Universe End?
+1. Quick Studies: A Collection of Shorter Essays
