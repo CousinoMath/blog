@@ -53,3 +53,8 @@
 1. Rise of the Infinitesimal
 1. Ada Perplex: Was Lord Byron's Daughter the First Coder?
 1. Alan Turing: In Life, Logic, and Death
+1. Dr. Strangelove Makes a Thinking Machine
+1. Smarter, Happier, More Productive
+1. String Theory Wars: Is Beauty Truth?
+1. Einstein, Spooky Action, and the Reality of Space
+1. How Will the Universe End?
