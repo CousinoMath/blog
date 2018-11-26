@@ -9,13 +9,48 @@ I see deep, rich beauty, others cannot avert their eyes fast enough. This is why
 attempts to popularize mathematics interest me. They offer me an opportunity to
 connect with others, and those I love, over my life&rsquo;s passion.
 
-# When Einstein Walked with G&ouml;del #
+# When Einstein Walked with Gödel #
 
 This book by Jim Holt is the best popularization of mathematics that I have yet
 read. Not only is it approachable, but it does so while diving deep into the
 mathematics. The fact that the average reader will miss some of the finer points
 is alleviated by the fact that they are engaged. (Granted, this might be helped
-with an audiobook, as the listeners complete attention isn&rsquo;t required.) 
+with an audiobook, as the listeners complete attention isn&rsquo;t required.)
+The book is a collection of essays by the author written in the style of
+&ldquo;cocktail party chat with a few marks on a napkin.&rdquo;
+
+After an introduction, the author starts with the titular essay. He describes
+who Einstein and Gödel are, and how they became friends at Princeton. The
+summary of their individual works is quite good. And the author mentions the
+tale when Gödel presented Einstein with a birthday present of a model of a
+spinning universe that allows for dopplegangers. The next chapter discusses the
+nature of time in light of Einstein&rsquo;s general relativity, how the theory
+precludes any synchroncous events which results in the lack of &ldquo;now&rdquo;
+in time. Holt discusses Einstein&rsquo;s eternalist view of time and how it
+fits with his theories.
+
+In the fourth chapter, Holt discusses the Riemann Zeta hypothesis, which I found
+stunning. What is even more impressive is that the author actually explains
+what the hypothesis says. This is where Holt impressed me with the depth of his
+coverage of mathematics. Some other topics that the book covers are:
+
+- the neurscience of numbers and how our minds represent quantities through an
+  examination of the work of Stanislas Dehaene, author of
+  *The Number Sense: How the Mind Creates Mathematics*.
+- Sir Francis Gaulton as the father of statistics and eugenics. His eugenic
+  dreams ultimately dashed due to the statistical concept of &ldquo;regression
+  to the mean.&rdquo; And a look at modern day eugenics via genetic engineering.
+- Grothendieck&rsquo;s work in category theory and how the unending chains of
+  abstraction impact mathematicians ability to grasp truth.
+- a discussion about why the Russians embraced the concept of infinity but the
+  French did not. It posits that the fact that Russians that explored the
+  infinite were mystics involved with a cult worshipping the name of god.
+
+## What the Book Does Well ##
+
+## What the Book Does Poorly (in my opinion) ##
+
+## Comments ##
 
 0. Collection of essays, cocktail party chat with a few marks on a
    napkin.
@@ -48,7 +83,7 @@ with an audiobook, as the listeners complete attention isn&rsquo;t required.)
      and revelations.
    - Symmetry group and Galois theory
 1. The Avatar's of Higher Mathematics
-   - Grothendick (sp?)
+   - Grothendieck (sp?)
    - Bourbaki (sp?)
 1. Benoit Mandelbrot
    - Financial markets are inherently unstable.
