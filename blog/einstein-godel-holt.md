@@ -1,3 +1,22 @@
+## Preamble ##
+
+It's incredibly frustrating to see beauty where others do not. This isolation is
+one of the main problems about studying mathematics. Whenever I answer the
+question &ldquo;What do you do?&rdquo;, I expect my answer to immediately kill
+this line of discussion. Not only do people have little idea about what I do,
+they *hate* what I do. This is the isolation: what I love, others loathe. Where
+I see deep, rich beauty, others cannot avert their eyes fast enough. This is why
+attempts to popularize mathematics interest me. They offer me an opportunity to
+connect with others, and those I love, over my life&rsquo;s passion.
+
+# When Einstein Walked with G&ouml;del #
+
+This book by Jim Holt is the best popularization of mathematics that I have yet
+read. Not only is it approachable, but it does so while diving deep into the
+mathematics. The fact that the average reader will miss some of the finer points
+is alleviated by the fact that they are engaged. (Granted, this might be helped
+with an audiobook, as the listeners complete attention isn&rsquo;t required.) 
+
 0. Collection of essays, cocktail party chat with a few marks on a
    napkin.
 1. When Einstein Walked with Gödel
@@ -59,3 +78,7 @@
 1. Einstein, Spooky Action, and the Reality of Space
 1. How Will the Universe End?
 1. Quick Studies: A Collection of Shorter Essays
+1. Dawkins and the Diety
+1. On Moral Sainthood
+1. Truth and Reference: A Philosophical Feud
+1. Say Anything
