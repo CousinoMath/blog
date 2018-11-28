@@ -9,7 +9,7 @@ rich beauty, others cannot avert their eyes fast enough. This is why attempts to
 popularize mathematics interest me. They offer me an opportunity to connect with
 others, and those I love, over my life’s passion.
 
-# When Einstein Walked with Gödel #
+# When Einstein Walked with [Gödel][1] #
 
 This book by Jim Holt is the best popularization of mathematics that I have yet
 read. Not only is it approachable, but it does so while diving deep into the
@@ -29,18 +29,18 @@ precludes any synchronous events which results in the lack of “now” in time.
 Holt discusses Einstein’s eternalist view of time and how it fits with his
 theories.
 
-In the fourth chapter, Holt discusses the Riemann Zeta hypothesis, which I found
-stunning. What is impressive is that the author actually explains what the
+In the fourth chapter, Holt discusses the [Riemann Zeta hypothesis][2], which I
+found stunning. What is impressive is that the author actually explains what the
 hypothesis says. This is where Holt impressed me with the depth of his coverage
 of mathematics. Some other topics that the book covers are:
 
 - the neuroscience of numbers and how our minds represent quantities through an
   examination of the work of Stanislas Dehaene, author of
   *The Number Sense: How the Mind Creates Mathematics*.
-- Sir Francis Galton as the father of statistics and eugenics. His eugenic
+- [Sir Francis Galton][3] as the father of statistics and eugenics. His eugenic
   dreams ultimately dashed due to the statistical concept of “regression to the
   mean.” And a look at modern day eugenics via genetic engineering.
-- Grothendieck’s work in category theory and how the unending chains of
+- [Grothendieck’s][4] work in category theory and how the unending chains of
   abstraction impact mathematicians ability to grasp truth.
 - a discussion about why the Russians embraced the concept of infinity but the
   French did not. It provides evidence for this in that Russians who explored
@@ -55,8 +55,9 @@ chapter on worshiping infinity and mysticism in mathematics, as I expect it may
 surprise some readers. I found myself stopping what I was doing to pay full
 attention while to listening to the audiobook. A smile that ran ear to ear grew
 upon my face. It was delightful to hear such an intelligent and detailed account
-of things like the life of Mandelbrot and Turing, as well as ideas like the
-four color theorem, the infinitesimal, and the string theory wars. 
+of things like the life of [Mandelbrot][5] and [Turing][6], as well as ideas
+like the [four color theorem][7], the [infinitesimal][8], and the
+[string theory][9] wars. 
 
 ## What the Book Does Poorly (in my opinion) ##
 
@@ -65,6 +66,31 @@ the book. For, at the end of the book, Holt moved away from mathematical topics
 to purely philosophical ones. I wasn’t as attentive to these parts as others.
 Topics like are computers beneficial to we humans and moral sainthood felt
 extraneous to the overall theme of the book.
+
+## Comments ##
+
+Overall, I was impressed with author Jim Holt’s ability to captivate the
+listener while occasionally losing them in the details. For me, this book is
+going to rank as one of the best popularization of mathematics that I will
+likely ever encounter.
+
+[1]: https://simple.wikipedia.org/wiki/Kurt_G%C3%B6del "Kurt Gödel"
+[2]: https://simple.wikipedia.org/wiki/Riemann_hypothesis "Riemann Zeta hypothesis"
+[3]: https://simple.wikipedia.org/wiki/Francis_Galton "Sir Francis Galton"
+[4]: https://simple.wikipedia.org/wiki/Alexander_Grothendieck "Alexander Grothendieck"
+[5]: https://simple.wikipedia.org/wiki/Beno%C3%AEt_Mandelbrot "Benoît Mandelbrot"
+[6]: https://simple.wikipedia.org/wiki/Alan_Turing "Alan Turing"
+[7]: https://simple.wikipedia.org/wiki/Four_color_theorem "Four color theorem"
+[8]: https://simple.wikipedia.org/wiki/Infinitesimal "Infinitesimal"
+[9]: https://simple.wikipedia.org/wiki/String_theory#Controversies "String theory controversies"
+
+
+
+
+
+
+
+
 
 0. Collection of essays, cocktail party chat with a few marks on a
    napkin.
