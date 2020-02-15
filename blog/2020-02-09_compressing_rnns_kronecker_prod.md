@@ -1,5 +1,7 @@
 # Summary #
 
+In this paper, the authors use Kronecker products as drop in replacements for recurrent neural perceptron matrices to achieve a 16-38x compression ratio while scarificing small amounts of accuracy.
+
 # Compressing Recurrent Neural Networks with Kronecker Products #
 
 This is a summary of a paper availabe on [arxiv.org][2] ([1906.02876][1]). The
@@ -7,7 +9,7 @@ authors goal is to compress recurrent neural networks (RNN) for embedded and
 internet of things (IoT) devices. The Kronecker product of
 `\(A\in\mathbb{R}^{m_{1}\times n_{1}}\)` and
 `\(B\in\mathbb{R}^{m_{2}\times n_{2}}\)` is
-`\(A\otimes B\in\mathbb{R}^{(m_{1} m_{2})\times (n_{1} n_{2})\)` defined as
+`\(A\otimes B\in\mathbb{R}^{(m_{1} m_{2})\times (n_{1} n_{2})}\)` defined as
 follows.
 
 `\[A\otimes B\triangleq
