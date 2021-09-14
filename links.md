@@ -17,6 +17,10 @@
 * [Möbius Transformations](https://www.youtube.com/watch?v=0z1fIsUNhO4) A
   beautiful little video explain simple transformations of complex numbers.
 
+## Geometry ##
+
+* [Zome](https://www.zometool.com/) A fantastic geometric construction set.
+
 ## Probability and Statistics ##
 
 * [Spurious Correlations](https://tylervigen.com/spurious-correlations) Because
