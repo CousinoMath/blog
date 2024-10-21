@@ -17,3 +17,4 @@ Functional_Roles_of_Math_Symbols/Function_of_Math_Symbols_Errata.md
 .DS_Store
 
 **/.ipynb_checkpoints/*
+*.code-workspace
