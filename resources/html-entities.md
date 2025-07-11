@@ -1,0 +1,12 @@
+&ldquo; “
+&rdquo; ”
+&rsquo; ’
+&lsquo; ‘
+&times; ×
+&divide; ÷
+&mdash; —
+&ndash; –
+&minus; −
+&hellip; …
+&plusmn; ±
+&radic; √

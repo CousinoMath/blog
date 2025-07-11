@@ -1,8 +1,0 @@
-strict digraph timesAssoc2 {
-times1, times2 [label="&times;"];
-a [label="a"];
-b [label="b"];
-c [label="c"];
-times1 -> {times2, c};
-times2 -> {a, b};
-}

@@ -1,0 +1,18 @@
+{
+	"folders": [{
+		"path": "."
+	}],
+	"settings": {
+		"cSpell.customDictionaries": {
+			"blog workspace dictionary": {
+				"name": "blog workspace dictionary",
+				"path": "${workspaceRoot}/.cspell/workspace-dictionary.txt",
+				"addWords": true,
+				"scope": "workspace"
+			}
+		},
+		"cSpell.ignorePaths": [
+			"LICENSE", "*.gv"
+		]
+	}
+}

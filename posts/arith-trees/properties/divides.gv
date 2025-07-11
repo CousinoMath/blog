@@ -1,0 +1,20 @@
+strict digraph divides {
+a1, a2 [label="a"];
+b1, b2 [label="b", color=blue];
+recip [label="1÷", color=red];
+divide [shape=record,label="<0>|÷|<1>", color=blue, style=dashed];
+times [label="×", color=red];
+eq [label="="];
+
+eq -> {divide, times};
+
+subgraph cluster0 {
+divide:0 -> a1;
+divide:1 -> b1 [color=blue, style=dashed];
+}
+
+subgraph cluster1 {
+times -> a2;
+times -> recip -> b2 [color=red];
+}
+}

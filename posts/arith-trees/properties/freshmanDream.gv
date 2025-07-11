@@ -1,0 +1,29 @@
+strict digraph freshmanDream {
+pow1, pow2, pow3 [shape=record, label="<0>|^|<1>"];
+a1, a2, a3 [label="a"];
+b1, b2, b3 [label="b"];
+two1, two2, two3, two4 [label="2"];
+plus1,plus2 [label="+", ordering="out"];
+times [label="×", ordering="out"];
+eq [label="="];
+
+eq -> {pow1, plus2};
+
+subgraph cluster0 {
+pow1:0 -> plus1 -> {a1, b1};
+pow1:1 -> two1;
+}
+
+subgraph cluster1 {
+plus2 -> pow2;
+plus2 -> times;
+plus2 -> pow3;
+pow2:0 -> a2;
+pow2:1 -> two2;
+times -> two3;
+times -> a3;
+times -> b2;
+pow3:0 -> b3;
+pow3:1 -> two4;
+}
+}

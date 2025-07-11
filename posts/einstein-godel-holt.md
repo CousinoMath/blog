@@ -1,23 +1,23 @@
 ## Preamble ##
 
-It's incredibly frustrating to see beauty where others do not. This isolation is
-one of the main problems about studying mathematics. Whenever I answer the
+It's incredibly frustrating to see beauty where others do not. This isolation
+is one of the main problems about studying mathematics. Whenever I answer the
 question “What do you do?”, I expect my answer to immediately kill this line of
 discussion. Not only do people have little idea about what I do, they *hate*
 what I do. This is the isolation: what I love, others loathe. Where I see deep,
-rich beauty, others cannot avert their eyes fast enough. This is why attempts to
-popularize mathematics interest me. They offer me an opportunity to connect with
-others, and those I love, over my life’s passion.
+rich beauty, others cannot avert their eyes fast enough. This is why attempts
+to popularize mathematics interest me. They offer me an opportunity to connect
+with others, and those I love, over my life’s passion.
 
 # When Einstein Walked with [Gödel][1] #
 
 This book by Jim Holt is the best popularization of mathematics that I have yet
 read. Not only is it approachable, but it does so while diving deep into the
-mathematics. The fact that the average reader will miss some of the finer points
-is alleviated by the fact that they are engaged. (Granted, this might be helped
-with an audiobook, as the listeners complete attention isn’t required.) The book
-is a collection of essays by the author written in the style of “cocktail party
-chat with a few marks on a napkin.”
+mathematics. The fact that the average reader will miss some of the finer
+points is alleviated by the fact that they are engaged. (Granted, this might be
+helped with an audiobook, as the listeners complete attention isn’t required.)
+The book is a collection of essays by the author written in the style of
+“cocktail party chat with a few marks on a napkin.”
 
 After an introduction, the author starts with the titular essay. He describes
 who Einstein and Gödel are, and how they became friends at Princeton. The
@@ -30,9 +30,9 @@ Holt discusses Einstein’s eternalist view of time and how it fits with his
 theories.
 
 In the fourth chapter, Holt discusses the [Riemann Zeta hypothesis][2], which I
-found stunning. What is impressive is that the author actually explains what the
-hypothesis says. This is where Holt impressed me with the depth of his coverage
-of mathematics. Some other topics that the book covers are:
+found stunning. What is impressive is that the author actually explains what
+the hypothesis says. This is where Holt impressed me with the depth of his
+coverage of mathematics. Some other topics that the book covers are:
 
 - the neuroscience of numbers and how our minds represent quantities through an
   examination of the work of Stanislas Dehaene, author of
@@ -54,9 +54,9 @@ portrayals of both romantic genius and the not so romantic kind. I enjoyed the
 chapter on worshiping infinity and mysticism in mathematics, as I expect it may
 surprise some readers. I found myself stopping what I was doing to pay full
 attention while to listening to the audiobook. A smile that ran ear to ear grew
-upon my face. It was delightful to hear such an intelligent and detailed account
-of things like the life of [Mandelbrot][5] and [Turing][6], as well as ideas
-like the [four color theorem][7], the [infinitesimal][8], and the
+upon my face. It was delightful to hear such an intelligent and detailed
+account of things like the life of [Mandelbrot][5] and [Turing][6], as well as
+ideas like the [four color theorem][7], the [infinitesimal][8], and the
 [string theory][9] wars. 
 
 ## What the Book Does Poorly (in my opinion) ##
@@ -84,14 +84,7 @@ likely ever encounter.
 [8]: https://simple.wikipedia.org/wiki/Infinitesimal "Infinitesimal"
 [9]: https://simple.wikipedia.org/wiki/String_theory#Controversies "String theory controversies"
 
-
-
-
-
-
-
-
-
+<!--
 0. Collection of essays, cocktail party chat with a few marks on a
    napkin.
 1. When Einstein Walked with Gödel
@@ -109,7 +102,7 @@ likely ever encounter.
    - Representation of numbers in the mind (number neurons)
 1. Riemann Zeta Conjecture and the Laughter of the Primes
    - Copernican (Gott) principle: You are not special (within 95%)
-     - n performances: between n/39 and 39\*n more performances
+     - \(n\) performances: between \(n/39\) and \(39*n\) more performances
    - Euclid's infinitude of primes
    - Zeta hypothesis
    - Mathematicians look through a telescope to see a perfect Platonic universe
@@ -157,3 +150,7 @@ likely ever encounter.
 1. On Moral Sainthood
 1. Truth and Reference: A Philosophical Feud
 1. Say Anything
+
+spell-checker:words audiobook 
+spell-checker:ignore Duwan Georg Gott Strangelove
+-->

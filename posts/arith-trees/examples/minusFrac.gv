@@ -1,0 +1,46 @@
+strict digraph minusFrac {
+three1, three2 [label="3"];
+four [label="4"];
+two [label="2"];
+twelve1, twelve2, twelve3, twelve4 [label="12"];
+nine1, nine2 [label="9"];
+eight1, eight2 [label="6"];
+one [label="1"];
+eq [shape=record,label="=|<0>|<1>|<2>|<3>"];
+div1, div2, div3, div4, div5, div6 [shape=record, label="<0>|÷|<1>"];
+minus1, minus2, minus3 [shape=record, label="<0>|−|<1>"];
+
+eq:0 -> minus1;
+eq:1 -> minus2;
+eq:2 -> div5;
+eq:3 -> div6;
+subgraph cluster0 {
+minus1:0 -> div1;
+minus1:1 -> div2;
+div1:0 -> three1;
+div1:1 -> four;
+div2:0 -> two;
+div2:1 -> three2;
+}
+
+subgraph cluster1 {
+minus2:0 -> div3;
+minus2:1 -> div4;
+div3:0 -> nine1;
+div3:1 -> twelve1;
+div4:0 -> eight1;
+div4:1 -> twelve2;
+}
+
+subgraph cluster2 {
+div5:0 -> minus3;
+div5:1 -> twelve3;
+minus3:0 -> nine2;
+minus3:1 -> eight2;
+}
+
+subgraph cluster3 {
+div6:0 -> one;
+div6:1 -> twelve4;
+}
+}

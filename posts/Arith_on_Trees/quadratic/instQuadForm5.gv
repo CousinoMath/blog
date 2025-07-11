@@ -1,7 +1,0 @@
-strict digraph instQuadForm2 {
-div [shape=record,label="<0>|&divide;|<1>", style=dashed];
-two [label="2", style=dashed];
-set [label="{6,2}", style=dashed];
-div:0 -> set [style=dashed];
-div:1 -> two [style=dashed];
-}

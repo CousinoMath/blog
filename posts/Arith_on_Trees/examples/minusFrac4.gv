@@ -1,8 +1,0 @@
-strict digraph minusFrac4 {
-twelve4 [label="12"];
-one [label="1"];
-div6 [shape=record, label="<0>|&divide;|<1>"];
-
-div6:0 -> one;
-div6:1 -> twelve4;
-}

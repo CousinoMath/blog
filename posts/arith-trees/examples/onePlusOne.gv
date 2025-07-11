@@ -1,0 +1,6 @@
+strict digraph onePone {
+plus [label="+"];
+one1 [label="1"];
+one2 [label="1"];
+plus -> {one1, one2}
+}

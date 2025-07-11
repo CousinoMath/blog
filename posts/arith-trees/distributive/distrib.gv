@@ -1,0 +1,24 @@
+strict digraph distrib {
+eq [label="="];
+mult1, mult2, mult3 [shape=Mcircle,label="×",color=blue,ordering=out];
+plus1, plus2 [label="+",ordering=out];
+a1, a2, a3 [shape=Mcircle,label="a",color=blue];
+b1, b2 [label="b"];
+c1, c2 [label="c"];
+
+eq -> {mult1, plus2};
+
+subgraph cluster0 {
+mult1 -> a1 [color=blue, arrowhead=onormal];
+mult1 -> plus1 [dir=both,arrowtail=inv,arrowhead=inv];
+plus1 -> {b1, c1};
+}
+
+subgraph cluster1 {
+plus2 -> {mult2, mult3} [dir=both,arrowhead=inv,arrowtail=inv];
+mult2 -> a2 [color=blue,arrowhead=onormal];
+mult2 -> b2;
+mult3 -> a3 [color=blue,arrowhead=onormal];
+mult3 -> c2;
+}
+}

@@ -1,0 +1,13 @@
+strict digraph minusFrac1 {
+three1, three2 [label="3", color=blue];
+four [label="4", color=blue];
+two [label="2", color=blue];
+div1, div2 [shape=record, label="<0>|÷|<1>"];
+minus1 [shape=record, label="<0>|−|<1>"];
+minus1:0 -> div1;
+minus1:1 -> div2;
+div1:0 -> three1;
+div1:1 -> four;
+div2:0 -> two;
+div2:1 -> three2;
+}

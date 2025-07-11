@@ -1,0 +1,7 @@
+strict digraph timesAssoc3 {
+times [label="×"];
+a [label="a"];
+b [label="b"];
+c [label="c"];
+times -> {a, b, c};
+}

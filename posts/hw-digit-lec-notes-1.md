@@ -31,7 +31,7 @@ college algebra class and a business calculus class.
 ### Converting handwriting to text
 
 At first, I tried converting my handwriting, both text and math,
-into their proper typeseting. There are two ways of doing
+into their proper typesetting. There are two ways of doing
 this conversion. First, within paid versions of OneNote, there are
 buttons under the “Draw” tab to convert
 “Ink to Text” and “Ink to Math”. The other
@@ -51,7 +51,7 @@ enough to use regularly. I say this because recognizing mathematical
 writing is much harder than regular writing.
 With subscripts, superscripts, funny Greek letters, large fractions,
 etc., Microsoft has done a great job with their math input panel.
-It’s just not finished yet. Take for examles some common errors
+It’s just not finished yet. Take for examples some common errors
 which I came across (1) the math input thinks my ‘0’s are
 ‘3’s; (2) I cannot write my ‘1’s with the hat
 and stand serifs; (3) and multiline equations are out, and so get used
@@ -134,3 +134,7 @@ your setup is in the comments.
 [6]: https://github.com/CousinoMath/Teaching/blob/master/Lecture_Notes/2015%20Fall%201329%20017%20Syllabus.doc?raw=true
 [7]: https://www.youtube.com/channel/UCfkdvNgG2grbn4miJL8DojA
 [8]: http://www.adonit.net/jot/pro/
+
+<!--
+spell-checker:words Adonit Livescribe 
+-->

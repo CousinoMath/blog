@@ -1,12 +1,6 @@
-# Links #
-
-## [YouTube](https://youtube.com/) Videos ##
-
-* [Vihart](https://www.youtube.com/user/Vihart)
-  Vi Hart is a treasure of great math videos. Its worth your time to explore the
-  library of her videos. Some of my favorites are in the "Doodling in Math
-  Class" series.
-* [Numberphile](https://www.youtube.com/user/numberphile) Another great
+# Links
+## [YouTube](https://youtube.com/) Videos
+* [Numberphile](https://www.youtube.com/@numberphile) Another great
   mathematical channel. Some of my favorites include
   [How to choose a toilet](https://www.youtube.com/watch?v=ZWib5olGbQ0)
   and the video on the
@@ -16,6 +10,8 @@
   episode 16.
 * [Möbius Transformations](https://www.youtube.com/watch?v=0z1fIsUNhO4) A
   beautiful little video explain simple transformations of complex numbers.
+* [Finite Simple Group of Order Two](https://www.youtube.com/watch?v=BipvGD-LCjU)
+  A comedic love songs for mathematicians.
 
 ## Geometry ##
 
@@ -42,8 +38,10 @@
 
 ## Miscellaneous Fun ##
 
-* [Finite Simple Group of Order Two](https://www.youtube.com/watch?v=BipvGD-LCjU)
-  A comedic love songs for mathematicians.
 * [Professor or Hobo](http://www.proforhobo.com/) Could you mistake one of your
   professors for a hobo? Try your hand at this simple quiz.
 
+<!--
+spell-checker:words Borromean Möbius Numberphile Shapeways Termespheres Vihart
+spell-checker:words Zome 
+-->
